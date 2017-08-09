@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
        AMapServices.shared().apiKey = "a96942b6efdaf07cedb3e00cfa996641"
        AMapServices.shared().enableHTTPS = true
     
-    AVOSCloud.setApplicationId("tgs0dwab1RdAgWt9gIh4DaVf-gzGzoHsz", clientKey: "RNJrajpB5249KpXmM4kWin0v")
+       AVOSCloud.setApplicationId("tgs0dwab1RdAgWt9gIh4DaVf-gzGzoHsz", clientKey: "RNJrajpB5249KpXmM4kWin0v")
         
         
         return true
