@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2F07BA1ED3DD9100D95EBE /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F07B91ED3DD9100D95EBE /* AboutUsViewController.swift */; };
+		1BF165461ED2ECAE00136465 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF165451ED2ECAE00136465 /* MenuViewController.swift */; };
+		55CC3C227A0903B6F2075314 /* Pods_zly_ofo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60CE09DC499A2D7BC500046 /* Pods_zly_ofo.framework */; };
+		71F297BD1EE58A2A0014AF1A /* 0_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297AE1EE58A2A0014AF1A /* 0_D.m4a */; };
+		71F297BE1EE58A2A0014AF1A /* 1_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297AF1EE58A2A0014AF1A /* 1_D.m4a */; };
+		71F297BF1EE58A2A0014AF1A /* 2_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297B01EE58A2A0014AF1A /* 2_D.m4a */; };
+		71F297C01EE58A2A0014AF1A /* 3_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297B11EE58A2A0014AF1A /* 3_D.m4a */; };
+		71F297C11EE58A2A0014AF1A /* 4_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297B21EE58A2A0014AF1A /* 4_D.m4a */; };
+		71F297C21EE58A2A0014AF1A /* 5_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297B31EE58A2A0014AF1A /* 5_D.m4a */; };
+		71F297C31EE58A2A0014AF1A /* 6_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297B41EE58A2A0014AF1A /* 6_D.m4a */; };
+		71F297C41EE58A2A0014AF1A /* 7_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297B51EE58A2A0014AF1A /* 7_D.m4a */; };
+		71F297C51EE58A2A0014AF1A /* 8_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297B61EE58A2A0014AF1A /* 8_D.m4a */; };
+		71F297C61EE58A2A0014AF1A /* 9_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297B71EE58A2A0014AF1A /* 9_D.m4a */; };
+		71F297C71EE58A2A0014AF1A /* 上车前_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297B81EE58A2A0014AF1A /* 上车前_D.m4a */; };
+		71F297C81EE58A2A0014AF1A /* 上车前_LH.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297B91EE58A2A0014AF1A /* 上车前_LH.m4a */; };
+		71F297C91EE58A2A0014AF1A /* 您的解锁码为_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297BA1EE58A2A0014AF1A /* 您的解锁码为_D.m4a */; };
+		71F297CA1EE58A2A0014AF1A /* 骑行结束_D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297BB1EE58A2A0014AF1A /* 骑行结束_D.m4a */; };
+		71F297CB1EE58A2A0014AF1A /* 骑行结束_LH.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 71F297BC1EE58A2A0014AF1A /* 骑行结束_LH.m4a */; };
+		71F524801EE3FF870045F5B5 /* InPutPlateNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F5247F1EE3FF870045F5B5 /* InPutPlateNumberViewController.swift */; };
+		71F524831EE401CA0045F5B5 /* colorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F524821EE401CA0045F5B5 /* colorHeader.swift */; };
+		71F524861EE415FD0045F5B5 /* CarUnlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F524851EE415FD0045F5B5 /* CarUnlockViewController.swift */; };
+		71F535EF1ECDEA8A006E9374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F535EE1ECDEA8A006E9374 /* AppDelegate.swift */; };
+		71F535F11ECDEA8A006E9374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F535F01ECDEA8A006E9374 /* ViewController.swift */; };
+		71F535F41ECDEA8A006E9374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F535F21ECDEA8A006E9374 /* Main.storyboard */; };
+		71F535F61ECDEA8A006E9374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F535F51ECDEA8A006E9374 /* Assets.xcassets */; };
+		71F535F91ECDEA8A006E9374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F535F71ECDEA8A006E9374 /* LaunchScreen.storyboard */; };
+		71F536201ECDF91F006E9374 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F5361F1ECDF91F006E9374 /* WebViewController.swift */; };
+		F94769D91EE650FA00CD7ACB /* MyPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94769D51EE650FA00CD7ACB /* MyPinAnnotation.swift */; };
+		F94769DA1EE650FA00CD7ACB /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94769D61EE650FA00CD7ACB /* NetworkHelper.swift */; };
+		F94769DB1EE650FA00CD7ACB /* UIviewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94769D71EE650FA00CD7ACB /* UIviewHelper.swift */; };
+		F94769DE1EE6530C00CD7ACB /* 开发说明.txt in Resources */ = {isa = PBXBuildFile; fileRef = F94769DD1EE6530C00CD7ACB /* 开发说明.txt */; };
+		F94769E41EE6713600CD7ACB /* ErrorCarCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94769E31EE6713600CD7ACB /* ErrorCarCodeViewController.swift */; };
+		F95825E51EDEC25500A0F0D8 /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F95825E41EDEC25500A0F0D8 /* CodeScan.bundle */; };
+		F985EFC01EDE77540099A39D /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985EFBF1EDE77540099A39D /* ScanViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71F536001ECDEA8A006E9374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71F535E31ECDEA89006E9374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71F535EA1ECDEA89006E9374;
+			remoteInfo = "zly-ofo";
+		};
+		71F5360B1ECDEA8A006E9374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71F535E31ECDEA89006E9374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71F535EA1ECDEA89006E9374;
+			remoteInfo = "zly-ofo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B2F07B91ED3DD9100D95EBE /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		1BF165451ED2ECAE00136465 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		28F2A3F72CBD7D0D0311035B /* Pods-zly-ofo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zly-ofo.release.xcconfig"; path = "Pods/Target Support Files/Pods-zly-ofo/Pods-zly-ofo.release.xcconfig"; sourceTree = "<group>"; };
+		71F297AE1EE58A2A0014AF1A /* 0_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0_D.m4a; sourceTree = "<group>"; };
+		71F297AF1EE58A2A0014AF1A /* 1_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1_D.m4a; sourceTree = "<group>"; };
+		71F297B01EE58A2A0014AF1A /* 2_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2_D.m4a; sourceTree = "<group>"; };
+		71F297B11EE58A2A0014AF1A /* 3_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3_D.m4a; sourceTree = "<group>"; };
+		71F297B21EE58A2A0014AF1A /* 4_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4_D.m4a; sourceTree = "<group>"; };
+		71F297B31EE58A2A0014AF1A /* 5_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5_D.m4a; sourceTree = "<group>"; };
+		71F297B41EE58A2A0014AF1A /* 6_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6_D.m4a; sourceTree = "<group>"; };
+		71F297B51EE58A2A0014AF1A /* 7_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7_D.m4a; sourceTree = "<group>"; };
+		71F297B61EE58A2A0014AF1A /* 8_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8_D.m4a; sourceTree = "<group>"; };
+		71F297B71EE58A2A0014AF1A /* 9_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 9_D.m4a; sourceTree = "<group>"; };
+		71F297B81EE58A2A0014AF1A /* 上车前_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "上车前_D.m4a"; sourceTree = "<group>"; };
+		71F297B91EE58A2A0014AF1A /* 上车前_LH.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "上车前_LH.m4a"; sourceTree = "<group>"; };
+		71F297BA1EE58A2A0014AF1A /* 您的解锁码为_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "您的解锁码为_D.m4a"; sourceTree = "<group>"; };
+		71F297BB1EE58A2A0014AF1A /* 骑行结束_D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "骑行结束_D.m4a"; sourceTree = "<group>"; };
+		71F297BC1EE58A2A0014AF1A /* 骑行结束_LH.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "骑行结束_LH.m4a"; sourceTree = "<group>"; };
+		71F5247F1EE3FF870045F5B5 /* InPutPlateNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InPutPlateNumberViewController.swift; sourceTree = "<group>"; };
+		71F524821EE401CA0045F5B5 /* colorHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = colorHeader.swift; path = ../colorHeader.swift; sourceTree = "<group>"; };
+		71F524851EE415FD0045F5B5 /* CarUnlockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarUnlockViewController.swift; sourceTree = "<group>"; };
+		71F535EB1ECDEA89006E9374 /* zly-ofo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zly-ofo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F535EE1ECDEA8A006E9374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71F535F01ECDEA8A006E9374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71F535F31ECDEA8A006E9374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71F535F51ECDEA8A006E9374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71F535F81ECDEA8A006E9374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71F535FA1ECDEA8A006E9374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F535FF1ECDEA8A006E9374 /* zly-ofoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zly-ofoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F5360A1ECDEA8A006E9374 /* zly-ofoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zly-ofoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F5361F1ECDF91F006E9374 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
+		71F651571ED33A7C006D8828 /* zly-ofo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zly-ofo-Bridging-Header.h"; sourceTree = "<group>"; };
+		F60CE09DC499A2D7BC500046 /* Pods_zly_ofo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zly_ofo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F739E5D31359317E15998D59 /* Pods-zly-ofo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zly-ofo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zly-ofo/Pods-zly-ofo.debug.xcconfig"; sourceTree = "<group>"; };
+		F94769D51EE650FA00CD7ACB /* MyPinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPinAnnotation.swift; sourceTree = "<group>"; };
+		F94769D61EE650FA00CD7ACB /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		F94769D71EE650FA00CD7ACB /* UIviewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIviewHelper.swift; sourceTree = "<group>"; };
+		F94769DD1EE6530C00CD7ACB /* 开发说明.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "开发说明.txt"; sourceTree = "<group>"; };
+		F94769E31EE6713600CD7ACB /* ErrorCarCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorCarCodeViewController.swift; sourceTree = "<group>"; };
+		F95825E41EDEC25500A0F0D8 /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
+		F985EFBF1EDE77540099A39D /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScanViewController.swift; path = ../ScanViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71F535E81ECDEA89006E9374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CC3C227A0903B6F2075314 /* Pods_zly_ofo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F535FC1ECDEA8A006E9374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F536071ECDEA8A006E9374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B2F07B71ED3DD7200D95EBE /* 我的界面 */ = {
+			isa = PBXGroup;
+			children = (
+				1B2F07B81ED3DD7200D95EBE /* 关于我们 */,
+			);
+			path = "我的界面";
+			sourceTree = "<group>";
+		};
+		1B2F07B81ED3DD7200D95EBE /* 关于我们 */ = {
+			isa = PBXGroup;
+			children = (
+				1B2F07B91ED3DD9100D95EBE /* AboutUsViewController.swift */,
+			);
+			path = "关于我们";
+			sourceTree = "<group>";
+		};
+		71F297AD1EE58A2A0014AF1A /* voice */ = {
+			isa = PBXGroup;
+			children = (
+				71F297AE1EE58A2A0014AF1A /* 0_D.m4a */,
+				71F297AF1EE58A2A0014AF1A /* 1_D.m4a */,
+				71F297B01EE58A2A0014AF1A /* 2_D.m4a */,
+				71F297B11EE58A2A0014AF1A /* 3_D.m4a */,
+				71F297B21EE58A2A0014AF1A /* 4_D.m4a */,
+				71F297B31EE58A2A0014AF1A /* 5_D.m4a */,
+				71F297B41EE58A2A0014AF1A /* 6_D.m4a */,
+				71F297B51EE58A2A0014AF1A /* 7_D.m4a */,
+				71F297B61EE58A2A0014AF1A /* 8_D.m4a */,
+				71F297B71EE58A2A0014AF1A /* 9_D.m4a */,
+				71F297B81EE58A2A0014AF1A /* 上车前_D.m4a */,
+				71F297B91EE58A2A0014AF1A /* 上车前_LH.m4a */,
+				71F297BA1EE58A2A0014AF1A /* 您的解锁码为_D.m4a */,
+				71F297BB1EE58A2A0014AF1A /* 骑行结束_D.m4a */,
+				71F297BC1EE58A2A0014AF1A /* 骑行结束_LH.m4a */,
+			);
+			path = voice;
+			sourceTree = "<group>";
+		};
+		71F5247E1EE3FF260045F5B5 /* 手动输入车牌 */ = {
+			isa = PBXGroup;
+			children = (
+				71F5247F1EE3FF870045F5B5 /* InPutPlateNumberViewController.swift */,
+			);
+			path = "手动输入车牌";
+			sourceTree = "<group>";
+		};
+		71F524841EE415CB0045F5B5 /* 车辆解锁 */ = {
+			isa = PBXGroup;
+			children = (
+				71F524851EE415FD0045F5B5 /* CarUnlockViewController.swift */,
+			);
+			path = "车辆解锁";
+			sourceTree = "<group>";
+		};
+		71F535E21ECDEA89006E9374 = {
+			isa = PBXGroup;
+			children = (
+				71F535ED1ECDEA8A006E9374 /* zly-ofo */,
+				71F535EC1ECDEA89006E9374 /* Products */,
+				71F5361C1ECDF805006E9374 /* Frameworks */,
+				E4453581EB4F85030DD594EE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		71F535EC1ECDEA89006E9374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71F535EB1ECDEA89006E9374 /* zly-ofo.app */,
+				71F535FF1ECDEA8A006E9374 /* zly-ofoTests.xctest */,
+				71F5360A1ECDEA8A006E9374 /* zly-ofoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71F535ED1ECDEA8A006E9374 /* zly-ofo */ = {
+			isa = PBXGroup;
+			children = (
+				F94769DF1EE670F600CD7ACB /* 无车牌 */,
+				F94769DD1EE6530C00CD7ACB /* 开发说明.txt */,
+				F94769DC1EE6514500CD7ACB /* 活动中心 */,
+				F94769D41EE650FA00CD7ACB /* 封装方法 */,
+				F94769D81EE650FA00CD7ACB /* 扫码界面 */,
+				71F297AD1EE58A2A0014AF1A /* voice */,
+				71F524841EE415CB0045F5B5 /* 车辆解锁 */,
+				71F5247E1EE3FF260045F5B5 /* 手动输入车牌 */,
+				F95825E31EDEC23400A0F0D8 /* 扫码图片 */,
+				1B2F07B71ED3DD7200D95EBE /* 我的界面 */,
+				71F535EE1ECDEA8A006E9374 /* AppDelegate.swift */,
+				71F535F01ECDEA8A006E9374 /* ViewController.swift */,
+				1BF165451ED2ECAE00136465 /* MenuViewController.swift */,
+				71F535F21ECDEA8A006E9374 /* Main.storyboard */,
+				71F535F51ECDEA8A006E9374 /* Assets.xcassets */,
+				71F535F71ECDEA8A006E9374 /* LaunchScreen.storyboard */,
+				71F535FA1ECDEA8A006E9374 /* Info.plist */,
+				71F651571ED33A7C006D8828 /* zly-ofo-Bridging-Header.h */,
+			);
+			path = "zly-ofo";
+			sourceTree = "<group>";
+		};
+		71F5361C1ECDF805006E9374 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F60CE09DC499A2D7BC500046 /* Pods_zly_ofo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4453581EB4F85030DD594EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F739E5D31359317E15998D59 /* Pods-zly-ofo.debug.xcconfig */,
+				28F2A3F72CBD7D0D0311035B /* Pods-zly-ofo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F94769D41EE650FA00CD7ACB /* 封装方法 */ = {
+			isa = PBXGroup;
+			children = (
+				F94769D51EE650FA00CD7ACB /* MyPinAnnotation.swift */,
+				F94769D61EE650FA00CD7ACB /* NetworkHelper.swift */,
+				F94769D71EE650FA00CD7ACB /* UIviewHelper.swift */,
+				71F524821EE401CA0045F5B5 /* colorHeader.swift */,
+			);
+			path = "封装方法";
+			sourceTree = "<group>";
+		};
+		F94769D81EE650FA00CD7ACB /* 扫码界面 */ = {
+			isa = PBXGroup;
+			children = (
+				F985EFBF1EDE77540099A39D /* ScanViewController.swift */,
+			);
+			path = "扫码界面";
+			sourceTree = "<group>";
+		};
+		F94769DC1EE6514500CD7ACB /* 活动中心 */ = {
+			isa = PBXGroup;
+			children = (
+				71F5361F1ECDF91F006E9374 /* WebViewController.swift */,
+			);
+			path = "活动中心";
+			sourceTree = "<group>";
+		};
+		F94769DF1EE670F600CD7ACB /* 无车牌 */ = {
+			isa = PBXGroup;
+			children = (
+				F94769E31EE6713600CD7ACB /* ErrorCarCodeViewController.swift */,
+			);
+			path = "无车牌";
+			sourceTree = "<group>";
+		};
+		F95825E31EDEC23400A0F0D8 /* 扫码图片 */ = {
+			isa = PBXGroup;
+			children = (
+				F95825E41EDEC25500A0F0D8 /* CodeScan.bundle */,
+			);
+			name = "扫码图片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71F535EA1ECDEA89006E9374 /* zly-ofo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F536131ECDEA8A006E9374 /* Build configuration list for PBXNativeTarget "zly-ofo" */;
+			buildPhases = (
+				68D9657E45E9A82D5C237803 /* [CP] Check Pods Manifest.lock */,
+				71F535E71ECDEA89006E9374 /* Sources */,
+				71F535E81ECDEA89006E9374 /* Frameworks */,
+				71F535E91ECDEA89006E9374 /* Resources */,
+				6A091BA1553573AE49036EFE /* [CP] Embed Pods Frameworks */,
+				80AD65C59F7D45A969295459 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zly-ofo";
+			productName = "zly-ofo";
+			productReference = 71F535EB1ECDEA89006E9374 /* zly-ofo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71F535FE1ECDEA8A006E9374 /* zly-ofoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F536161ECDEA8A006E9374 /* Build configuration list for PBXNativeTarget "zly-ofoTests" */;
+			buildPhases = (
+				71F535FB1ECDEA8A006E9374 /* Sources */,
+				71F535FC1ECDEA8A006E9374 /* Frameworks */,
+				71F535FD1ECDEA8A006E9374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71F536011ECDEA8A006E9374 /* PBXTargetDependency */,
+			);
+			name = "zly-ofoTests";
+			productName = "zly-ofoTests";
+			productReference = 71F535FF1ECDEA8A006E9374 /* zly-ofoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71F536091ECDEA8A006E9374 /* zly-ofoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F536191ECDEA8A006E9374 /* Build configuration list for PBXNativeTarget "zly-ofoUITests" */;
+			buildPhases = (
+				71F536061ECDEA8A006E9374 /* Sources */,
+				71F536071ECDEA8A006E9374 /* Frameworks */,
+				71F536081ECDEA8A006E9374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71F5360C1ECDEA8A006E9374 /* PBXTargetDependency */,
+			);
+			name = "zly-ofoUITests";
+			productName = "zly-ofoUITests";
+			productReference = 71F5360A1ECDEA8A006E9374 /* zly-ofoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71F535E31ECDEA89006E9374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "郑乐银";
+				TargetAttributes = {
+					71F535EA1ECDEA89006E9374 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3VFZMBT5YH;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					71F535FE1ECDEA8A006E9374 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71F535EA1ECDEA89006E9374;
+					};
+					71F536091ECDEA8A006E9374 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71F535EA1ECDEA89006E9374;
+					};
+				};
+			};
+			buildConfigurationList = 71F535E61ECDEA89006E9374 /* Build configuration list for PBXProject "zly-ofo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71F535E21ECDEA89006E9374;
+			productRefGroup = 71F535EC1ECDEA89006E9374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71F535EA1ECDEA89006E9374 /* zly-ofo */,
+				71F535FE1ECDEA8A006E9374 /* zly-ofoTests */,
+				71F536091ECDEA8A006E9374 /* zly-ofoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71F535E91ECDEA89006E9374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F297C31EE58A2A0014AF1A /* 6_D.m4a in Resources */,
+				71F297BF1EE58A2A0014AF1A /* 2_D.m4a in Resources */,
+				71F297C51EE58A2A0014AF1A /* 8_D.m4a in Resources */,
+				71F297CB1EE58A2A0014AF1A /* 骑行结束_LH.m4a in Resources */,
+				71F297BD1EE58A2A0014AF1A /* 0_D.m4a in Resources */,
+				71F535F91ECDEA8A006E9374 /* LaunchScreen.storyboard in Resources */,
+				71F297C11EE58A2A0014AF1A /* 4_D.m4a in Resources */,
+				71F535F61ECDEA8A006E9374 /* Assets.xcassets in Resources */,
+				71F297C61EE58A2A0014AF1A /* 9_D.m4a in Resources */,
+				F94769DE1EE6530C00CD7ACB /* 开发说明.txt in Resources */,
+				71F297C91EE58A2A0014AF1A /* 您的解锁码为_D.m4a in Resources */,
+				71F297C21EE58A2A0014AF1A /* 5_D.m4a in Resources */,
+				71F297CA1EE58A2A0014AF1A /* 骑行结束_D.m4a in Resources */,
+				71F297BE1EE58A2A0014AF1A /* 1_D.m4a in Resources */,
+				71F297C81EE58A2A0014AF1A /* 上车前_LH.m4a in Resources */,
+				71F297C01EE58A2A0014AF1A /* 3_D.m4a in Resources */,
+				71F297C71EE58A2A0014AF1A /* 上车前_D.m4a in Resources */,
+				71F297C41EE58A2A0014AF1A /* 7_D.m4a in Resources */,
+				71F535F41ECDEA8A006E9374 /* Main.storyboard in Resources */,
+				F95825E51EDEC25500A0F0D8 /* CodeScan.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F535FD1ECDEA8A006E9374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F536081ECDEA8A006E9374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68D9657E45E9A82D5C237803 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A091BA1553573AE49036EFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zly-ofo/Pods-zly-ofo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80AD65C59F7D45A969295459 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zly-ofo/Pods-zly-ofo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71F535E71ECDEA89006E9374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94769DA1EE650FA00CD7ACB /* NetworkHelper.swift in Sources */,
+				F985EFC01EDE77540099A39D /* ScanViewController.swift in Sources */,
+				1B2F07BA1ED3DD9100D95EBE /* AboutUsViewController.swift in Sources */,
+				71F535F11ECDEA8A006E9374 /* ViewController.swift in Sources */,
+				F94769D91EE650FA00CD7ACB /* MyPinAnnotation.swift in Sources */,
+				71F524831EE401CA0045F5B5 /* colorHeader.swift in Sources */,
+				71F524861EE415FD0045F5B5 /* CarUnlockViewController.swift in Sources */,
+				71F536201ECDF91F006E9374 /* WebViewController.swift in Sources */,
+				71F524801EE3FF870045F5B5 /* InPutPlateNumberViewController.swift in Sources */,
+				F94769E41EE6713600CD7ACB /* ErrorCarCodeViewController.swift in Sources */,
+				71F535EF1ECDEA8A006E9374 /* AppDelegate.swift in Sources */,
+				F94769DB1EE650FA00CD7ACB /* UIviewHelper.swift in Sources */,
+				1BF165461ED2ECAE00136465 /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F535FB1ECDEA8A006E9374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F536061ECDEA8A006E9374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71F536011ECDEA8A006E9374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71F535EA1ECDEA89006E9374 /* zly-ofo */;
+			targetProxy = 71F536001ECDEA8A006E9374 /* PBXContainerItemProxy */;
+		};
+		71F5360C1ECDEA8A006E9374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71F535EA1ECDEA89006E9374 /* zly-ofo */;
+			targetProxy = 71F5360B1ECDEA8A006E9374 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71F535F21ECDEA8A006E9374 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F535F31ECDEA8A006E9374 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71F535F71ECDEA8A006E9374 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F535F81ECDEA8A006E9374 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71F536111ECDEA8A006E9374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71F536121ECDEA8A006E9374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71F536141ECDEA8A006E9374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F739E5D31359317E15998D59 /* Pods-zly-ofo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 3VFZMBT5YH;
+				INFOPLIST_FILE = "zly-ofo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhengleyin.zly-ofo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "zly-ofo/zly-ofo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		71F536151ECDEA8A006E9374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F2A3F72CBD7D0D0311035B /* Pods-zly-ofo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 3VFZMBT5YH;
+				INFOPLIST_FILE = "zly-ofo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhengleyin.zly-ofo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "zly-ofo/zly-ofo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		71F536171ECDEA8A006E9374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "zly-ofoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhengleyin.zly-ofoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zly-ofo.app/zly-ofo";
+			};
+			name = Debug;
+		};
+		71F536181ECDEA8A006E9374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "zly-ofoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhengleyin.zly-ofoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zly-ofo.app/zly-ofo";
+			};
+			name = Release;
+		};
+		71F5361A1ECDEA8A006E9374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "zly-ofoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhengleyin.zly-ofoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "zly-ofo";
+			};
+			name = Debug;
+		};
+		71F5361B1ECDEA8A006E9374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "zly-ofoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhengleyin.zly-ofoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "zly-ofo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71F535E61ECDEA89006E9374 /* Build configuration list for PBXProject "zly-ofo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F536111ECDEA8A006E9374 /* Debug */,
+				71F536121ECDEA8A006E9374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F536131ECDEA8A006E9374 /* Build configuration list for PBXNativeTarget "zly-ofo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F536141ECDEA8A006E9374 /* Debug */,
+				71F536151ECDEA8A006E9374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F536161ECDEA8A006E9374 /* Build configuration list for PBXNativeTarget "zly-ofoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F536171ECDEA8A006E9374 /* Debug */,
+				71F536181ECDEA8A006E9374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F536191ECDEA8A006E9374 /* Build configuration list for PBXNativeTarget "zly-ofoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F5361A1ECDEA8A006E9374 /* Debug */,
+				71F5361B1ECDEA8A006E9374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71F535E31ECDEA89006E9374 /* Project object */;
+}
