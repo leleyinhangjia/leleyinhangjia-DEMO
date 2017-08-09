@@ -1,0 +1,6 @@
+framework module Pods_zly_ofo {
+  umbrella header "Pods-zly-ofo-umbrella.h"
+
+  export *
+  module * { export * }
+}
