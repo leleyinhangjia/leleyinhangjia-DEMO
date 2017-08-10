@@ -11,8 +11,8 @@
 -------仿照主要是利用地图定位找到周围车辆开锁--------
 
 1.高德地图框架 你可以直接去申请高德开发者中心申请(http://lbs.amap.com)
-   AMapServices.shared().apiKey = "xxxx"
-   AMapServices.shared().enableHTTPS = true
+    AMapServices.shared().apiKey = "xxxx"
+    AMapServices.shared().enableHTTPS = true
 
 2.导入高德相关框架
 pod 'AMap3DMap'
