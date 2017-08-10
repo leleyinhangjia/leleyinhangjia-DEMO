@@ -1,8 +1,12 @@
 # leleyinhangjia-DEMO
-## 模仿ios经典项目(ofo,喵播)+实际开发中遇到问题...
+## 模仿ios经典项目(ofo,喵播等)+常用第三方类拓展+实际开发中遇到问题(由于近期比较忙于项目开发会持续更新中)...
 
 ## zly-ofo (只为学习交流,禁止使用商业用途,本人不承担任何责任)
-## 输入车牌号 :是通过云存储获取(LeadCould) 
+## 输入车牌号 :是通过云存储获取(LeadCould) 如下:车牌号---密码
+###        code:40000 pass:2573
+###        code:40001 pass:7378
+###        code:40002 pass:7255
+###        code:40003 pass:4628
 ### 请用户自己使用终端---打开项目---鼠标点击右键-open with External Edtior ----pod install(pod update)
 -------仿照主要是利用地图定位找到周围车辆开锁--------
 
@@ -14,4 +18,7 @@
 # pod 'AMapLocation'
 # pod 'AMapNavi'
 
-![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/main.png)
+### 主页面----显示周围的车辆和红包范围
+![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/1.png)
+### 主页面----显示扫码界面
+![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/2.png)
