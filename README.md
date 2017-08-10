@@ -19,6 +19,3 @@ pod 'AMap3DMap'
 pod 'AMapSearch'
 pod 'AMapLocation'
 pod 'AMapNavi'
-
-
-
