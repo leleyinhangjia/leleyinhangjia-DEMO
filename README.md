@@ -16,4 +16,4 @@
 # pod 'AMapLocation'
 # pod 'AMapNavi'
 
-![image](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/main.png)
+![](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/main.png)
