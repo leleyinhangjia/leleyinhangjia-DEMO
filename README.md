@@ -5,9 +5,20 @@
  
 只为学习交流,禁止使用商业用途,本人不承担任何责任
 /**输入车牌号 :是通过云存储获取(LeadCould) */
--------由于Pods过大,请自行导入cocopods----打开项目-
+
+------请用户自己使用终端---打开项目---鼠标点击右键-open with External Edtior ----pod install(pod update)
+
 -------仿照主要是利用地图定位找到周围车辆开锁--------
-1.高德地图框架 你可以直接去申请
+
+1.高德地图框架 你可以直接去申请高德开发者中心申请(http://lbs.amap.com)
+   AMapServices.shared().apiKey = "xxxx"
+   AMapServices.shared().enableHTTPS = true
+
+2.导入高德相关框架
+pod 'AMap3DMap'
+pod 'AMapSearch'
+pod 'AMapLocation'
+pod 'AMapNavi'
 
 
 
