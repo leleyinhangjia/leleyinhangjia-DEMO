@@ -8,8 +8,9 @@
 ###        code:40001 pass:7378
 ###        code:40002 pass:7255
 ###        code:40003 pass:4628
-### 请用户自己使用终端---打开项目---鼠标点击右键-open with External Edtior ----pod install(pod update)
--------仿照主要是利用地图定位找到周围车辆开锁--------
+### 请用户自己打开项目(由于Pods过大上传很慢原因)---鼠标点击右键-open with External Edtior ----pod install(pod update)
+
+## 仿照主要是利用地图定位找到周围车辆开锁
 
 1.高德地图框架 你可以直接去申请高德开发者中心申请(http://lbs.amap.com)
 ##  AMapServices.shared().apiKey = "xxxx"  AMapServices.shared().enableHTTPS = true
