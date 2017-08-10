@@ -21,6 +21,9 @@
 ### pod 'AMapNavi'
 
 ### 主页面----显示周围的车辆和红包范围
+<p align="center" >
+  <img src="https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/1.png" title="zly-ofo">
+</p>
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/1.png)
 ### 主页面----显示扫码界面
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/2.png)
