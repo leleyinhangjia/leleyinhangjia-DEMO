@@ -12,6 +12,4 @@ pod 'MBProgressHUD', '~> 0.9.2'
 pod 'BarrageRenderer', '~> 1.9.1'
 #pod 'GPUImage', '~> 0.1.7' 由于LFLiveKit里面已经集成了GPUImage
 pod 'LFLiveKit', '~> 1.6'
-//http://bojuesk.com:8080/channel/url/editallurlbyname?name=zlyurl
-//http://192.168.1.109:8080/wjamm/
 end
