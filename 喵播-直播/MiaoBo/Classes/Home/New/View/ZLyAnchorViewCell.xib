@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ZLyAnchorViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder_head" translatesAutoresizingMaskIntoConstraints="NO" id="SlO-eJ-PsO">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZsC-4M-InF">
+                        <rect key="frame" x="5" y="10" width="70" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="HJP-Xg-70I"/>
+                            <constraint firstAttribute="width" constant="70" id="n7d-0y-SDG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="重庆市" image="location_white_8x9_"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kkv-QM-jMf">
+                        <rect key="frame" x="0.0" y="179" width="200" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="PuN-8N-Adf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flag_new_33x17_" translatesAutoresizingMaskIntoConstraints="NO" id="2h4-sz-BNG">
+                        <rect key="frame" x="165" y="10" width="30" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="XEi-LQ-ddk"/>
+                            <constraint firstAttribute="height" constant="15" id="dJe-OW-lGp"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ZsC-4M-InF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="2Od-fJ-X93"/>
+                <constraint firstAttribute="trailing" secondItem="2h4-sz-BNG" secondAttribute="trailing" constant="5" id="4us-9A-jRl"/>
+                <constraint firstAttribute="bottom" secondItem="Kkv-QM-jMf" secondAttribute="bottom" constant="1" id="9zU-sP-ieH"/>
+                <constraint firstAttribute="bottom" secondItem="SlO-eJ-PsO" secondAttribute="bottom" id="AVq-zn-S9A"/>
+                <constraint firstAttribute="trailing" secondItem="SlO-eJ-PsO" secondAttribute="trailing" id="Gdf-4z-FHX"/>
+                <constraint firstItem="ZsC-4M-InF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="Mvs-Ot-7K6"/>
+                <constraint firstItem="2h4-sz-BNG" firstAttribute="top" secondItem="ZsC-4M-InF" secondAttribute="top" id="dnh-DY-D3j"/>
+                <constraint firstItem="SlO-eJ-PsO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dwJ-Y0-uQy"/>
+                <constraint firstAttribute="trailing" secondItem="Kkv-QM-jMf" secondAttribute="trailing" id="nB3-kp-eSk"/>
+                <constraint firstItem="Kkv-QM-jMf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wh7-Oe-PNk"/>
+                <constraint firstItem="SlO-eJ-PsO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ypM-9R-bMM"/>
+            </constraints>
+            <size key="customSize" width="154" height="186"/>
+            <connections>
+                <outlet property="coverView" destination="SlO-eJ-PsO" id="vGa-Dw-c00"/>
+                <outlet property="locationBtn" destination="ZsC-4M-InF" id="qXB-Fn-De4"/>
+                <outlet property="nickNameLabel" destination="Kkv-QM-jMf" id="bja-tA-VT0"/>
+                <outlet property="star" destination="2h4-sz-BNG" id="N1K-xB-agt"/>
+            </connections>
+            <point key="canvasLocation" x="-252" y="-42"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="flag_new_33x17_" width="33" height="17"/>
+        <image name="location_white_8x9_" width="8" height="9"/>
+        <image name="placeholder_head" width="100" height="100"/>
+    </resources>
+</document>

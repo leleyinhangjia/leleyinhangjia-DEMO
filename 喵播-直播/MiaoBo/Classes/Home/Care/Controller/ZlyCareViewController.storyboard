@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vaA-Ng-ZTm">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Zly Care View Controller-->
+        <scene sceneID="bVo-3s-1X9">
+            <objects>
+                <viewController id="vaA-Ng-ZTm" customClass="ZlyCareViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OcC-Jf-2pr"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Pv-c0-f1w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BXZ-cr-IvQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_follow_250x247" translatesAutoresizingMaskIntoConstraints="NO" id="Dfg-eI-eoP">
+                                <rect key="frame" x="67" y="80" width="240" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="AMA-5h-e8k"/>
+                                    <constraint firstAttribute="height" constant="250" id="sdz-NV-AcV"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你关注的主播还未开播" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpA-EI-pgy">
+                                <rect key="frame" x="40" y="360" width="295" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="zgp-qZ-vJD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndl-FF-4qy">
+                                <rect key="frame" x="40" y="410" width="295" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="f1M-k9-qFp"/>
+                                </constraints>
+                                <state key="normal" title="去看看当前那热门直播"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ndl-FF-4qy" secondAttribute="trailing" constant="40" id="94F-p6-DlP"/>
+                            <constraint firstItem="Dfg-eI-eoP" firstAttribute="centerX" secondItem="BXZ-cr-IvQ" secondAttribute="centerX" id="BT0-Yx-x7G"/>
+                            <constraint firstItem="ndl-FF-4qy" firstAttribute="top" secondItem="MpA-EI-pgy" secondAttribute="bottom" constant="30" id="Hsz-v7-Dpt"/>
+                            <constraint firstItem="ndl-FF-4qy" firstAttribute="centerX" secondItem="BXZ-cr-IvQ" secondAttribute="centerX" id="ObG-CZ-jSQ"/>
+                            <constraint firstAttribute="trailing" secondItem="MpA-EI-pgy" secondAttribute="trailing" constant="40" id="VYJ-fO-DO7"/>
+                            <constraint firstItem="Dfg-eI-eoP" firstAttribute="centerX" secondItem="BXZ-cr-IvQ" secondAttribute="centerX" id="aRB-Uz-g9D"/>
+                            <constraint firstItem="MpA-EI-pgy" firstAttribute="leading" secondItem="BXZ-cr-IvQ" secondAttribute="leading" constant="40" id="aXb-Qn-7Pc"/>
+                            <constraint firstItem="MpA-EI-pgy" firstAttribute="top" secondItem="Dfg-eI-eoP" secondAttribute="bottom" constant="30" id="icQ-P7-PqE"/>
+                            <constraint firstItem="ndl-FF-4qy" firstAttribute="leading" secondItem="BXZ-cr-IvQ" secondAttribute="leading" constant="40" id="mxV-Ci-1mE"/>
+                            <constraint firstItem="Dfg-eI-eoP" firstAttribute="top" secondItem="OcC-Jf-2pr" secondAttribute="bottom" constant="60" id="pmF-Zt-Z6e"/>
+                            <constraint firstItem="MpA-EI-pgy" firstAttribute="centerX" secondItem="BXZ-cr-IvQ" secondAttribute="centerX" id="ppw-jC-SjJ"/>
+                            <constraint firstItem="MpA-EI-pgy" firstAttribute="centerX" secondItem="BXZ-cr-IvQ" secondAttribute="centerX" id="zSF-JG-jHu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="toSeeBtn" destination="ndl-FF-4qy" id="QFI-Bp-gDM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GrS-tl-B0M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-194" y="275"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="no_follow_250x247" width="250" height="247"/>
+    </resources>
+</document>

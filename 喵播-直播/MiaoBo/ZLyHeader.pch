@@ -1,0 +1,36 @@
+//
+//  ZLyHeader.pch
+//  MiaoBo
+//
+//  Created by mpgy on 2017/3/7.
+//  Copyright © 2017年 com.mpgy.www. All rights reserved.
+//
+
+#pragma mark - 自定义NSLog
+
+#ifdef __OBJC__
+
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s:%d\t  %s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(FORMAT, ...) nil
+#endif
+#pragma mark - Frame相关
+
+#ifndef ZLyHeader_pch
+#define ZLyHeader_pch
+#import "ZLyHeader2.pch"
+#import "UIView+SLExtension.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "UIViewController+SLExtension.h"
+#import "ALinNetworkTool.h"
+#import "UIViewController+SLHUD.h"//提示语
+#import "NSObject+ALinHUD.h"//提示语
+#import <IJKMediaFramework/IJKMediaFramework.h>
+#import <Masonry/Masonry.h>
+#import <MJRefresh/MJRefresh.h>
+#import <MJExtension/MJExtension.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#endif /* ZLyHeader_pch */
+
+#endif
