@@ -29,6 +29,7 @@
 ### 主页面----显示密码界面
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/6.png)
 
-# 项目二(喵播--主要是利用集成ijkplayer视频直播框架,LFLiveKit 后台录制、美颜功能、支持h264、AAC硬编码，动态改变速率，RTMP传输等)
-## 项目二(Reveal-来查询bug神器,页面展示,2D,3D,UI界面使用框架一目了然(还可以破解别人app): 如何使用请看相关推荐别人博客: http://www.jianshu.com/p/55c91033040c;我有破解版Raveal,想要可以联系我1502904932@qq.com)
-## 项目二(由于IJKMediaFramework.framework过大没有上传github 通过我的百度云直接下载:https://pan.baidu.com/s/1gf1movD 密码:88sa)
+# 项目二 喵播(Object-C)
+## (喵播--主要是利用集成ijkplayer视频直播框架,LFLiveKit 后台录制、美颜功能、支持h264、AAC硬编码，动态改变速率，RTMP传输等)
+### (Reveal-来查询bug神器,页面展示,2D,3D,UI界面使用框架一目了然(还可以破解别人app): 如何使用请看相关推荐别人博客: http://www.jianshu.com/p/55c91033040c;我有破解版Raveal,想要可以联系我1502904932@qq.com)
+### (由于IJKMediaFramework.framework过大没有上传github 通过我的百度云直接下载:https://pan.baidu.com/s/1gf1movD 密码:88sa)
