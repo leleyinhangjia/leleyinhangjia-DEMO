@@ -891,7 +891,6 @@
 				TargetAttributes = {
 					F928D0331E6D6FFD00E67D5B = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 3VFZMBT5YH;
 						ProvisioningStyle = Automatic;
 					};
 					F928D04C1E6D700000E67D5B = {
@@ -1242,7 +1241,7 @@
 			baseConfigurationReference = 4B109BA567F7E0B2944666B8 /* Pods-MiaoBo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3VFZMBT5YH;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MiaoBo/Classes/IJKMediaFrameworkIJKMediaFramework",
@@ -1279,7 +1278,7 @@
 					"-weak_framework",
 					RevealServer,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wjldm.wzxlzx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leleyinhangjia.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1289,7 +1288,7 @@
 			baseConfigurationReference = A24D1992B724157D82571044 /* Pods-MiaoBo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3VFZMBT5YH;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MiaoBo/Classes/IJKMediaFrameworkIJKMediaFramework",
@@ -1321,7 +1320,7 @@
 					"-framework",
 					"\"SDWebImage\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wjldm.wzxlzx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leleyinhangjia.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
