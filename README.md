@@ -21,7 +21,7 @@
 ### pod 'AMapNavi'
 
 ### 主页面----显示周围的车辆和红包范围
-![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/1.png)
+![alt-text-1](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/1.png?raw=true "")
 ### 主页面----显示扫码界面
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/2.png)
 ### 主页面----显示车牌输入界面
