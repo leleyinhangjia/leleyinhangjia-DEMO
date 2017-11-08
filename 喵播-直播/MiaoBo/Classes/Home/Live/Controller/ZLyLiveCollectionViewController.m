@@ -53,6 +53,26 @@ static NSString * const reuseIdentifier = @"ALinLiveViewCell";
     }
     return _userView;
 }
+-(void)viewWillAppear:(BOOL)animated {
+    //解决ios11 automaticallyAdjustsScrollViewInsets 偏移问题
+    self.extendedLayoutIncludesOpaqueBars = YES;
+    if (@available(iOS 11.0, *)) {
+        self.collectionView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+    } else {
+        self.automaticallyAdjustsScrollViewInsets = NO;
+    }
+    
+}
+-(void)viewWillDisappear:(BOOL)animated {
+    //解决ios11 automaticallyAdjustsScrollViewInsets 偏移问题
+    self.extendedLayoutIncludesOpaqueBars = YES;
+    if (@available(iOS 11.0, *)) {
+        self.collectionView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+    } else {
+        self.automaticallyAdjustsScrollViewInsets = NO;
+    }
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -83,6 +103,7 @@ static NSString * const reuseIdentifier = @"ALinLiveViewCell";
     [header setTitle:@"下拉切换另一个主播" forState:MJRefreshStatePulling];
     [header setTitle:@"下拉切换另一个主播" forState:MJRefreshStateIdle];
     self.collectionView.mj_header = header;
+    self.collectionView.mj_footer.hidden = YES;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(clickUser:) name:kNotifyClickUser object:nil];
     

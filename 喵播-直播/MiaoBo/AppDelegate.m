@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "ZLyLoginViewController.h"
 #import "Reachability.h"
-
+#import "UIDevice+SLExtension.h"
 @interface AppDelegate ()
 {
     Reachability *_reacha;
@@ -28,7 +28,15 @@
     
     [self.window makeKeyWindow];
     
-    [self checkNetworkStates];
+    //判断iPhone X 遇到的问题
+    if ([[UIDevice deviceVersion] isEqualToString:@"iPhone X"] ) {
+        [self showInfo:@"欢迎来到iPhone X 的世界!"];
+    }else {
+        //iOS11 网络监听有问题,稍后解决!
+        [self checkNetworkStates];
+    }
+
+ 
     return YES;
 }
 // 实时监控网络状态
