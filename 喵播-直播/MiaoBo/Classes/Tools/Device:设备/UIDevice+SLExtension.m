@@ -2,8 +2,8 @@
 //  UIDevice+SLExtension.m
 //  HealthyNews
 //
-//  Created by ALin on 16/1/3.
-//  Copyright © 2016年 ALin. All rights reserved.
+//  Created by zhengleyin 16/1/3.
+//  Copyright © 2016年 zhengleyin. All rights reserved.
 //
 
 #import "UIDevice+SLExtension.h"

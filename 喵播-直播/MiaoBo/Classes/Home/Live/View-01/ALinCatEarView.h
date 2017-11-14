@@ -2,8 +2,8 @@
 //  ALinCatEarView.h
 //  MiaowShow
 //
-//  Created by ALin on 16/6/17.
-//  Copyright © 2016年 ALin. All rights reserved.
+//  Created by zhengleyin 16/6/17.
+//  Copyright © 2016年 zhengleyin. All rights reserved.
 //  同一个工会的主播
 
 #import <UIKit/UIKit.h>

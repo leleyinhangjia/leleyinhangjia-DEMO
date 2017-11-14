@@ -2,8 +2,8 @@
 //  ALinLiveAnchorView.h
 //  MiaowShow
 //
-//  Created by ALin on 16/6/16.
-//  Copyright © 2016年 ALin. All rights reserved.
+//  Created by zhengleyin 16/6/16.
+//  Copyright © 2016年 zhengleyin. All rights reserved.
 //  直播间主播相关的视图
 
 #import <UIKit/UIKit.h>

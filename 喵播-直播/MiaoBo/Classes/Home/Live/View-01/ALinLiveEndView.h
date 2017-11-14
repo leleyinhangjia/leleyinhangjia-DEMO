@@ -2,8 +2,8 @@
 //  ALinLiveEndView.h
 //  MiaowShow
 //
-//  Created by ALin on 16/7/1.
-//  Copyright © 2016年 ALin. All rights reserved.
+//  Created by zhengleyin 16/7/1.
+//  Copyright © 2016年 zhengleyin. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
