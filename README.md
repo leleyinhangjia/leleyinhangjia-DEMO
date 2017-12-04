@@ -8,13 +8,15 @@
 
   - iOS 9+
   - swift 3.0
-  - Access for Contacts
+  -  for zly-ofo
+  
+  ## Bike license plate and cipher(LeadCould 存储云端) 如下:车牌号---密码
+
+  -  code:40000 pass:2573
+  -  code:40001 pass:7378
+  -  code:40002 pass:7255
+  -  code:40003 pass:4628
   
-## 输入车牌号 :是通过云存储获取(LeadCould) 如下:车牌号---密码
-###        code:40000 pass:2573
-###        code:40001 pass:7378
-###        code:40002 pass:7255
-###        code:40003 pass:4628
 ### 请用户自己打开项目(由于Pods过大上传很慢原因)---鼠标点击右键-open with External Edtior ----pod install(pod update)
 
 ## 仿照主要是利用地图定位找到周围车辆开锁
