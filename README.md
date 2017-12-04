@@ -33,6 +33,7 @@
 ## (喵播--主要是利用集成ijkplayer视频直播框架,LFLiveKit 后台录制、美颜功能、支持h264、AAC硬编码，动态改变速率，RTMP传输等)
 ### (Reveal-来查询bug神器,页面展示,2D,3D,UI界面使用框架一目了然(还可以破解别人app): 如何使用请看相关推荐别人博客: http://www.jianshu.com/p/55c91033040c;我有破解版Raveal,想要可以联系我1502904932@qq.com)
 ### (由于IJKMediaFramework.framework过大没有上传github 通过我的百度云直接下载:https://pan.baidu.com/s/1nuWEw9F  密码:qt6h)
+### 直播推流本地服务搭建参考(https://www.cnblogs.com/yajunLi/p/6412821.html)
 ### 主页面----登录首页
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/miaobo1.png)
 ### 主页面----主播显示界面
