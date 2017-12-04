@@ -362,6 +362,7 @@ $ pod install
 
 ### 主页面----登录首页
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/miaobo1.png)
+
 Reachability网络监听:
 ```Object-C
 typedef NS_ENUM(NSUInteger, NetworkStates) {
