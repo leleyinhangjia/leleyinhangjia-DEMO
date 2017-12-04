@@ -10,6 +10,14 @@
   - swift 3.0
   -  for zly-ofo
   
+  ## Main features
+Here's a highlight of the main features you can find in SwiftMultiSelect:
+
+* **Access PhoneBook or custom lists** Select contacts from phone book or from a custom lists
+* **Fast and smooth scrolling**.
+* **Multiple orientation** We support `portrait` and `landscape` orientation
+* **Fully customizable**. You can customize all programmatically
+
   ## Requirements
   Bike license plate and cipher(LeadCould 存储云端) 如下:车牌号---密码
 
