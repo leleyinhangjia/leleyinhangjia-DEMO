@@ -19,6 +19,45 @@
 * **code:40002** pass:7255
 * **code:40003** pass:4628
   
+```bash
+$ gem install cocoapods
+```
+
+#### Podfile
+
+To integrate SwiftMultiSelect into your Xcode project using CocoaPods, specify it in your `Podfile`:
+#### Podfile
+
+To integrate SwiftMultiSelect into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, ‘9.0’
+
+target "zly-ofo" do
+use_frameworks!
+pod 'SWRevealViewController'
+pod 'SnapKit', '~> 3.2.0'
+pod 'AMap3DMap'
+pod 'AMapSearch'
+pod 'AMapLocation'
+pod 'AMapNavi'
+pod 'FTIndicator'
+pod 'swiftScan'
+pod 'APNumberPad'
+pod 'SwiftyTimer'
+pod 'SwiftySound'
+pod 'AVOSCloud'
+pod 'MIBlurPopup'
+end
+
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
 ### 请用户自己打开项目(由于Pods过大上传很慢原因)---鼠标点击右键-open with External Edtior ----pod install(pod update)
 
 ## 仿照主要是利用地图定位找到周围车辆开锁
