@@ -362,6 +362,16 @@ $ pod install
 
 ### 主页面----登录首页
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/miaobo1.png)
+```Object-C
+typedef NS_ENUM(NSUInteger, NetworkStates) {
+    NetworkStatesNone, // 没有网络
+    NetworkStates2G, // 2G
+    NetworkStates3G, // 3G
+    NetworkStates4G, // 4G
+    NetworkStatesWIFI // WIFI
+};
+
+```
 ### 主页面----主播显示界面
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/miaobo2.png)
 ### 主页面----直播界面
