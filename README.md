@@ -10,21 +10,13 @@
   - swift 3.0
   -  for zly-ofo
   
-  ## Main features
-Here's a highlight of the main features you can find in SwiftMultiSelect:
+  ## Bike license plate and cipher
+   LeadCould 云端 车牌号---密码:
 
-* **Access PhoneBook or custom lists** Select contacts from phone book or from a custom lists
-* **Fast and smooth scrolling**.
-* **Multiple orientation** We support `portrait` and `landscape` orientation
-* **Fully customizable**. You can customize all programmatically
-
-  ## Requirements
-  Bike license plate and cipher(LeadCould 存储云端) 如下:车牌号---密码
-
-  -  code:40000 pass:2573
-  -  code:40001 pass:7378
-  -  code:40002 pass:7255
-  -  code:40003 pass:4628
+* **code:40000** pass:2573
+* **code:40001** pass:7378
+* **code:40002** pass:7255
+* **code:40003** pass:4628
   
 ### 请用户自己打开项目(由于Pods过大上传很慢原因)---鼠标点击右键-open with External Edtior ----pod install(pod update)
 
