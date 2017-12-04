@@ -10,7 +10,8 @@
   - swift 3.0
   -  for zly-ofo
   
-  ## Bike license plate and cipher(LeadCould 存储云端) 如下:车牌号---密码
+  ## Requirements
+  Bike license plate and cipher(LeadCould 存储云端) 如下:车牌号---密码
 
   -  code:40000 pass:2573
   -  code:40001 pass:7378
