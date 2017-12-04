@@ -362,6 +362,7 @@ $ pod install
 
 ### 主页面----登录首页
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/miaobo1.png)
+Reachability网络监听:
 ```Object-C
 typedef NS_ENUM(NSUInteger, NetworkStates) {
     NetworkStatesNone, // 没有网络
@@ -370,7 +371,43 @@ typedef NS_ENUM(NSUInteger, NetworkStates) {
     NetworkStates4G, // 4G
     NetworkStatesWIFI // WIFI
 };
-
+// 判断网络类型
++ (NetworkStates)getNetworkStates
+{
+    NSArray *subviews = [[[[UIApplication sharedApplication] valueForKeyPath:@"statusBar"] valueForKeyPath:@"foregroundView"] subviews];
+    // 保存网络状态
+    NetworkStates states = NetworkStatesNone;
+    for (id child in subviews) {
+        if ([child isKindOfClass:NSClassFromString(@"UIStatusBarDataNetworkItemView")]) {
+            //获取到状态栏码
+            int networkType = [[child valueForKeyPath:@"dataNetworkType"] intValue];
+            switch (networkType) {
+                case 0:
+                   //无网模式
+                    states = NetworkStatesNone;
+                    break;
+                case 1:
+                    states = NetworkStates2G;
+                    break;
+                case 2:
+                    states = NetworkStates3G;
+                    break;
+                case 3:
+                    states = NetworkStates4G;
+                    break;
+                case 5:
+                {
+                    states = NetworkStatesWIFI;
+                }
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+    //根据状态选择
+    return states;
+}
 ```
 ### 主页面----主播显示界面
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/miaobo2.png)
