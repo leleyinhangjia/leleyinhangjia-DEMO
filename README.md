@@ -8,8 +8,9 @@
 
   - iOS 9+
   - swift 3.0
-  -  for zly-ofo
+  - for zly-ofo
   
+  
 ## Bike license plate and cipher
    LeadCould 云端 车牌号---密码:
 
@@ -363,7 +364,7 @@ $ pod install
 ### 主页面----登录首页
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/miaobo1.png)
 
-Reachability网络监听:
+####Reachability网络监听:
 ```Object-C
 typedef NS_ENUM(NSUInteger, NetworkStates) {
     NetworkStatesNone, // 没有网络
@@ -415,7 +416,7 @@ typedef NS_ENUM(NSUInteger, NetworkStates) {
 ### 主页面----直播界面
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/miaobo3.png)
 
-粒子运动:
+####粒子运动:
 ```Object-C
 CAEmitterLayer *emitterLayer = [CAEmitterLayer layer];
 // 发射器在xy平面的中心位置
