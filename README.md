@@ -43,7 +43,8 @@
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/miaobo4.png)
 ### 主页面----自己开通主播
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/miaobo5.png)
-
+### 推流界面----推流直播界面
+![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/WechatIMG2.jpeg)
 
 #第三方拓展--(条件选择器)
 ## 为什么推荐--自定义强可以根据自己要求随意改动,可变更根据需求
