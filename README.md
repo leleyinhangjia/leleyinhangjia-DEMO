@@ -323,6 +323,43 @@ class ViewController: UIViewController ,MAMapViewDelegate,AMapSearchDelegate,AMa
 ### (Reveal-来查询bug神器,页面展示,2D,3D,UI界面使用框架一目了然(还可以破解别人app): 如何使用请看相关推荐别人博客: http://www.jianshu.com/p/55c91033040c;我有破解版Raveal,想要可以联系我1502904932@qq.com)
 ### (由于IJKMediaFramework.framework过大没有上传github 通过我的百度云直接下载:https://pan.baidu.com/s/1nuWEw9F  密码:qt6h)
 ### 直播推流本地服务搭建参考(https://www.cnblogs.com/yajunLi/p/6412821.html)
+```bash
+$ gem install cocoapods
+```
+
+#### Podfile
+
+To integrate SwiftMultiSelect into your Xcode project using CocoaPods, specify it in your `Podfile`:
+#### Podfile
+
+To integrate SwiftMultiSelect into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'MiaoBo' do
+use_frameworks!
+pod 'ReactiveCocoa', '~> 2.5'
+pod 'AFNetworking', '~> 3.1.0'
+pod 'SDWebImage', '~> 4.0.0'
+pod 'MJRefresh', '~> 3.1.12'
+pod 'MJExtension', '~> 3.0.13'
+pod 'Masonry', '~> 1.0.2'
+pod 'MBProgressHUD', '~> 0.9.2'
+pod 'BarrageRenderer', '~> 1.9.1'
+#pod 'GPUImage', '~> 0.1.7' 由于LFLiveKit里面已经集成了GPUImage
+pod 'LFLiveKit', '~> 1.6'
+end
+
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
 ### 主页面----登录首页
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/miaobo1.png)
 ### 主页面----主播显示界面
