@@ -9,6 +9,8 @@
 #import "ZLyLoginViewController.h"
 #import "ZLyThirdLoginView.h"
 #import "MainViewController.h"
+#import <CommonCrypto/CommonDigest.h>
+#import<IJKMediaFramework/IJKMediaFramework.h>
 @interface ZLyLoginViewController ()
 /** palyer */
 @property (nonatomic,strong) IJKFFMoviePlayerController *player;
@@ -24,15 +26,12 @@
 
 
 #pragma mark - lifr circle
-
+#pragma mark - 懒加载
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     [self setup];
     
 }
-#pragma mark - 懒加载
-
 - (IJKFFMoviePlayerController *)player  {
     if (!_player) {
         //随机播放一组视频
@@ -47,7 +46,6 @@
         player.shouldAutoplay = NO;
         //准备播放
         [player prepareToPlay];
-        
         _player = player;
     }
     return _player;
@@ -55,11 +53,19 @@
 
 - (ZLyThirdLoginView *)thirdView {
     if (!_thirdView) {
+        
         ZLyThirdLoginView *third = [[ZLyThirdLoginView alloc] initWithFrame:CGRectMake(0, 0,ZLyScreenWidth , 200)];
         [third setClickLogin:^(LoginType type) {
-            [self loginSuccess];
+            NSLog(@"type==================================%lu",(unsigned long)type);
+            if ((unsigned long)type == 1) {
+               // [self QQ];
+                [self loginSuccess];
+            }else{
+               // [self wx];
+            }
+            
         }];
-         third.hidden = YES;
+        third.hidden = YES;
         [self.view addSubview:third];
         _thirdView = third;
     }
@@ -151,7 +157,6 @@
 - (void)loginSuccess {
     [self showHint:@"登陆成功"];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        
         [self presentViewController:[MainViewController new] animated:YES completion:^{
             [self.player stop];
             [self.player.view removeFromSuperview];

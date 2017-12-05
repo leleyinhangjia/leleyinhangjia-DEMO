@@ -9,6 +9,18 @@
 #import "ShowTimeViewController.h"
 //美颜相机
 #import "LFLiveKit.h"
+#import "LFGPUImageBeautyFilter.h"
+
+//IP地址的头文件
+#include <ifaddrs.h>
+#include <arpa/inet.h>
+#include <net/if.h>
+
+#define IOS_CELLULAR    @"pdp_ip0"
+#define IOS_WIFI        @"en0"
+//#define IOS_VPN       @"utun0"
+#define IP_ADDR_IPv4    @"ipv4"
+#define IP_ADDR_IPv6    @"ipv6"
 
 @interface ShowTimeViewController () <LFLiveSessionDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *beautifulBtn;//美颜按钮
@@ -20,6 +32,7 @@
 @property (nonatomic, weak) UIView *livingPreView;
 /** LFLive */
 @property (nonatomic,strong) LFLiveSession *session;
+@property(nonatomic,strong, nullable) GPUImageOutput *filter;
 @end
 
 @implementation ShowTimeViewController
@@ -37,9 +50,9 @@
 - (LFLiveSession *)session {
     if (!_session) {
         /***   默认分辨率 360*640  音频 44.1 iPhone6以上48 双声道 方向竖屏 ***/
-        _session = [[LFLiveSession alloc] initWithAudioConfiguration:[LFLiveAudioConfiguration defaultConfiguration] videoConfiguration:[LFLiveVideoConfiguration defaultConfigurationForQuality:LFLiveVideoQuality_Medium2]];
+        _session = [[LFLiveSession alloc] initWithAudioConfiguration:[LFLiveAudioConfiguration defaultConfiguration] videoConfiguration:[LFLiveVideoConfiguration defaultConfigurationForQuality:LFLiveVideoQuality_Medium3]];
         
-         /**    自己定制高质量音频128K 分辨率设置为720*1280 方向竖屏 */
+//         /**    自己定制高质量音频128K 分辨率设置为720*1280 方向竖屏 */
 //        LFLiveAudioConfiguration *audioConfiguration  = [LFLiveAudioConfiguration new];
 //        ///声道
 //        audioConfiguration.numberOfChannels = 2;
@@ -47,16 +60,16 @@
 //        audioConfiguration.audioBitrate = LFLiveAudioBitRate_128Kbps;
 //        /// 采样率
 //        audioConfiguration.audioSampleRate = LFLiveAudioSampleRate_44100Hz;
-        
+//
 //         /***         默认视频配置          ***/
-//     
+//
 //        LFLiveVideoConfiguration *videoConfiguration = [LFLiveVideoConfiguration new];
 //        /// 视频的分辨率，宽高务必设定为 2 的倍数，否则解码播放时可能出现绿边
 //        videoConfiguration.videoSize = CGSizeMake(720, 1280);
 //        // 视频的码率，单位是 bps 码流 / 码率
-//         /***   　
+//         /***
 //          码流(Data Rate)是指视频文件在单位时间内使用的数据流量，也叫码率或码流率，通俗一点的理解就是取样率,是视频编码中画面质量控制中最重要的部分，一般我们用的单位是kb/s或者Mb/s。一般来说同样分辨率下，视频文件的码流越大，压缩比就越小，画面质量就越高。码流越大，说明单位时间内取样率越大，数据流，精度就越高，处理出来的文件就越接近原始文件，图像质量越好，画质越清晰，要求播放设备的解码能力也越高
-//          
+//
 //          当然，码流越大，文件体积也越大，其计算公式是文件体积=时间X码率/8。例如，网络上常见的一部90分钟1Mbps码流的720P RMVB文件，其体积就=5400秒×1Mb/8=675MB
 //          ***/
 //        videoConfiguration.videoBitRate = 800 * 1024;
@@ -64,30 +77,30 @@
 //        videoConfiguration.videoMaxBitRate = 1000*1024;
 //        /// 视频的最小码率，即 fps
 //        videoConfiguration.videoMinBitRate = 500*1024;
-//        
-//         /***   视频的帧率，即 fps ***/
-//         /***  
-//           帧速率也称为FPS(Frames PerSecond)的缩写——帧/秒。是指每秒钟刷新的图片的帧数，也可以理解为图形处理器每秒钟能够刷新几次。越高的帧速率可以得到更流畅、更逼真的动画。每秒钟帧数(FPS)越多，所显示的动作就会越流畅。
-//          ***/
+////
+////         /***   视频的帧率，即 fps ***/
+////         /***
+////           帧速率也称为FPS(Frames PerSecond)的缩写——帧/秒。是指每秒钟刷新的图片的帧数，也可以理解为图形处理器每秒钟能够刷新几次。越高的帧速率可以得到更流畅、更逼真的动画。每秒钟帧数(FPS)越多，所显示的动作就会越流畅。
+////          ***/
 //        videoConfiguration.videoFrameRate = 15;
 //        /// 最大关键帧间隔，可设定为 fps 的2倍，影响一个 gop 的大小
 //        videoConfiguration.videoMaxKeyframeInterval = 30;
 //        //视频方向
 //        videoConfiguration.landscape = UIInterfaceOrientationIsPortrait(UIInterfaceOrientationPortrait);
 //        ///< 分辨率
-//        /***  
+//        /***
 //          就是帧大小每一帧就是一副图像。
-//         
+//
 //         640*480分辨率的视频，建议视频的码速率设置在700以上，音频采样率44100就行了
-//         
+//
 //         一个音频编码率为128Kbps，视频编码率为800Kbps的文件，其总编码率为928Kbps，意思是经过编码后的数据每秒钟需要用928K比特来表示。
-//         
+//
 //         计算输出文件大小公式：
 //         （音频编码率（KBit为单位）/8 +视频编码率（KBit为单位）/8）×影片总长度（秒为单位）=文件大小（MB为单位）
-//         
+//
 //         ***/
 //        videoConfiguration.sessionPreset = LFCaptureSessionPreset720x1280;
-//        
+//
 //         _session = [[LFLiveSession alloc] initWithAudioConfiguration:audioConfiguration videoConfiguration:videoConfiguration ];
         
         // 设置代理
@@ -105,6 +118,7 @@
     [self setup];
 }
 - (void)setup {
+  
     self.beautifulBtn.layer.cornerRadius = self.beautifulBtn.height * 0.5;
     self.beautifulBtn.layer.masksToBounds = YES;
     
@@ -143,14 +157,14 @@
     if (sender.selected) { // 开始直播
         LFLiveStreamInfo *stream = [LFLiveStreamInfo new];
         // 如果是跟我blog教程搭建的本地服务器, 记得填写你电脑的IP地址
-        stream.url = @"rtmp://192.168.1.117:1935/rtmplive/room";
+        //stream.url = [NSString stringWithFormat:@"rtmp://%@:1935/rtmplive/room",[self getIPAddress]];
+        stream.url = @"rtmp://192.168.1.102:1935/rtmplive/room";
         self.rtmpUrl = stream.url;
         [self.session startLive:stream];
     }else{ // 结束直播
         [sender setTitle:@"结束直播" forState:(UIControlStateSelected)];
         [self.session stopLive];
         self.statusLabel.text = [NSString stringWithFormat:@"状态: 直播被关闭\nRTMP: %@", self.rtmpUrl];
-      
     }
     
 }
@@ -181,12 +195,37 @@
 }
 /** live debug info callback */
 - (void)liveSession:(nullable LFLiveSession *)session debugInfo:(nullable LFLiveDebug*)debugInfo{
-    
 }
 
 /** callback socket errorcode */
 - (void)liveSession:(nullable LFLiveSession*)session errorCode:(LFLiveSocketErrorCode)errorCode{
     
 }
-
+//获取设备当前网络IP地址
+- (NSString *)getIPAddress {
+    NSString *address = @"error";
+    struct ifaddrs *interfaces = NULL;
+    struct ifaddrs *temp_addr = NULL;
+    int success = 0;
+    // retrieve the current interfaces - returns 0 on success
+    success = getifaddrs(&interfaces);
+    if (success == 0) {
+        // Loop through linked list of interfaces
+        temp_addr = interfaces;
+        while(temp_addr != NULL) {
+            if(temp_addr->ifa_addr->sa_family == AF_INET) {
+                // Check if interface is en0 which is the wifi connection on the iPhone
+                if([[NSString stringWithUTF8String:temp_addr->ifa_name] isEqualToString:@"en0"]) {
+                    // Get NSString from C String
+                    address = [NSString stringWithUTF8String:inet_ntoa(((struct sockaddr_in *)temp_addr->ifa_addr)->sin_addr)];
+                }
+            }
+            temp_addr = temp_addr->ifa_next;
+        }
+    }
+    
+    // Free memory
+    freeifaddrs(interfaces);
+    return address;
+}
 @end

@@ -24,10 +24,6 @@
    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    self.window.rootViewController = [[ZLyLoginViewController alloc]init];
-    
-    [self.window makeKeyWindow];
-    
     //判断iPhone X 遇到的问题
     if ([[UIDevice deviceVersion] isEqualToString:@"iPhone X"] ) {
         [self showInfo:@"欢迎来到iPhone X 的世界!"];
@@ -35,6 +31,9 @@
         //iOS11 网络监听有问题,稍后解决!
         [self checkNetworkStates];
     }
+    
+    self.window.rootViewController = [[ZLyLoginViewController alloc]init];
+    [self.window makeKeyWindow];
 
  
     return YES;
@@ -83,8 +82,6 @@
 - (void)applicationWillResignActive:(UIApplication *)application {
  
 }
-
-
 - (void)applicationDidEnterBackground:(UIApplication *)application {
 }
 

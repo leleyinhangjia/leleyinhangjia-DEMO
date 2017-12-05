@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4EB1444742DBEB79FBC328CB /* Pods_MiaoBo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5415C3DDC748226B4B8EFE /* Pods_MiaoBo.framework */; };
+		719BCA721FCE8E9500CD9042 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719BCA711FCE8E9500CD9042 /* IJKMediaFramework.framework */; };
 		F928D0391E6D6FFD00E67D5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F928D0381E6D6FFD00E67D5B /* main.m */; };
 		F928D03C1E6D6FFD00E67D5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F928D03B1E6D6FFD00E67D5B /* AppDelegate.m */; };
 		F928D0421E6D6FFF00E67D5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F928D0401E6D6FFF00E67D5B /* Main.storyboard */; };
@@ -67,7 +68,6 @@
 		F9F0747A1E6E9D32001C8EC4 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F074791E6E9D32001C8EC4 /* libbz2.tbd */; };
 		F9F0747C1E6E9D3B001C8EC4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F0747B1E6E9D3B001C8EC4 /* libz.tbd */; };
 		F9F0747E1E6E9D48001C8EC4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F0747D1E6E9D48001C8EC4 /* MediaPlayer.framework */; };
-		F9F074991E6E9F24001C8EC4 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F074811E6E9F24001C8EC4 /* IJKMediaFramework.framework */; };
 		F9F0749A1E6E9F24001C8EC4 /* ZLyLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F074851E6E9F24001C8EC4 /* ZLyLoginViewController.m */; };
 		F9F0749B1E6E9F24001C8EC4 /* ZLyThirdLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F074881E6E9F24001C8EC4 /* ZLyThirdLoginView.m */; };
 		F9F0749E1E6E9F24001C8EC4 /* danmu.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9F0748F1E6E9F24001C8EC4 /* danmu.plist */; };
@@ -102,6 +102,7 @@
 
 /* Begin PBXFileReference section */
 		4B109BA567F7E0B2944666B8 /* Pods-MiaoBo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiaoBo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiaoBo/Pods-MiaoBo.debug.xcconfig"; sourceTree = "<group>"; };
+		719BCA711FCE8E9500CD9042 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		A24D1992B724157D82571044 /* Pods-MiaoBo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiaoBo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiaoBo/Pods-MiaoBo.release.xcconfig"; sourceTree = "<group>"; };
 		DC5415C3DDC748226B4B8EFE /* Pods_MiaoBo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiaoBo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F928D0341E6D6FFD00E67D5B /* MiaoBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiaoBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,7 +205,6 @@
 		F9F074791E6E9D32001C8EC4 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		F9F0747B1E6E9D3B001C8EC4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		F9F0747D1E6E9D48001C8EC4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		F9F074811E6E9F24001C8EC4 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		F9F074841E6E9F24001C8EC4 /* ZLyLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLyLoginViewController.h; sourceTree = "<group>"; };
 		F9F074851E6E9F24001C8EC4 /* ZLyLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLyLoginViewController.m; sourceTree = "<group>"; };
 		F9F074871E6E9F24001C8EC4 /* ZLyThirdLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLyThirdLoginView.h; sourceTree = "<group>"; };
@@ -239,7 +239,7 @@
 				F9F0747E1E6E9D48001C8EC4 /* MediaPlayer.framework in Frameworks */,
 				F9F0747C1E6E9D3B001C8EC4 /* libz.tbd in Frameworks */,
 				F9F0747A1E6E9D32001C8EC4 /* libbz2.tbd in Frameworks */,
-				F9F074991E6E9F24001C8EC4 /* IJKMediaFramework.framework in Frameworks */,
+				719BCA721FCE8E9500CD9042 /* IJKMediaFramework.framework in Frameworks */,
 				F9F074781E6E9D27001C8EC4 /* AVFoundation.framework in Frameworks */,
 				F9F074761E6E9D1E001C8EC4 /* OpenGLES.framework in Frameworks */,
 				F9F074741E6E9D12001C8EC4 /* QuartzCore.framework in Frameworks */,
@@ -327,6 +327,7 @@
 		F928D0361E6D6FFD00E67D5B /* MiaoBo */ = {
 			isa = PBXGroup;
 			children = (
+				719BCA711FCE8E9500CD9042 /* IJKMediaFramework.framework */,
 				F928D03A1E6D6FFD00E67D5B /* AppDelegate.h */,
 				F928D03B1E6D6FFD00E67D5B /* AppDelegate.m */,
 				F9F0747F1E6E9F24001C8EC4 /* Classes */,
@@ -698,21 +699,12 @@
 				F94F82A31E70ED1100E49193 /* ShowTime */,
 				F94F82911E70E89F00E49193 /* Home */,
 				F9F074D11E6EC1A8001C8EC4 /* Main */,
-				F9F074801E6E9F24001C8EC4 /* IJKMediaFrameworkIJKMediaFramework */,
 				F9F074821E6E9F24001C8EC4 /* Login */,
 				F9F074891E6E9F24001C8EC4 /* NetWork */,
 				F9F0748E1E6E9F24001C8EC4 /* Resource */,
 				F9F074941E6E9F24001C8EC4 /* Tools */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		F9F074801E6E9F24001C8EC4 /* IJKMediaFrameworkIJKMediaFramework */ = {
-			isa = PBXGroup;
-			children = (
-				F9F074811E6E9F24001C8EC4 /* IJKMediaFramework.framework */,
-			);
-			path = IJKMediaFrameworkIJKMediaFramework;
 			sourceTree = "<group>";
 		};
 		F9F074821E6E9F24001C8EC4 /* Login */ = {
@@ -891,6 +883,7 @@
 				TargetAttributes = {
 					F928D0331E6D6FFD00E67D5B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GE76DE4J66;
 						ProvisioningStyle = Automatic;
 					};
 					F928D04C1E6D700000E67D5B = {
@@ -1241,13 +1234,14 @@
 			baseConfigurationReference = 4B109BA567F7E0B2944666B8 /* Pods-MiaoBo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GE76DE4J66;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MiaoBo/Classes/IJKMediaFrameworkIJKMediaFramework",
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/MiaoBo/Classes/Reveal",
+					"$(PROJECT_DIR)/MiaoBo",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MiaoBo/ZLyHeader.pch";
 				INFOPLIST_FILE = MiaoBo/Info.plist;
@@ -1278,7 +1272,8 @@
 					"-weak_framework",
 					RevealServer,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.leleyinhangjia.www;
+				OTHER_LIBTOOLFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leleyinhangjia.MiaoBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1288,11 +1283,12 @@
 			baseConfigurationReference = A24D1992B724157D82571044 /* Pods-MiaoBo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GE76DE4J66;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MiaoBo/Classes/IJKMediaFrameworkIJKMediaFramework",
 					"$(PROJECT_DIR)/MiaoBo/Classes/Reveal",
+					"$(PROJECT_DIR)/MiaoBo",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MiaoBo/ZLyHeader.pch";
 				INFOPLIST_FILE = MiaoBo/Info.plist;
@@ -1320,7 +1316,8 @@
 					"-framework",
 					"\"SDWebImage\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.leleyinhangjia.www;
+				OTHER_LIBTOOLFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leleyinhangjia.MiaoBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

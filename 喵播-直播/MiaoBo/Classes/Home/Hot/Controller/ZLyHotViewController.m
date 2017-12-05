@@ -132,13 +132,16 @@ static NSString *ADReuseIdentifier = @"ZLyHomeADCell";
         if (self.topADS.count) {
             cell.topADs = self.topADS;
             [cell setImageClickBlock:^(ZLyTopAD *topAD) {
-                self.title = nil;
+//                self.navigationController.title = nil;
+//                self.navigationItem.title = nil;
                 ZLyWebViewController *web = [[ZLyWebViewController alloc] init];
-                web.navigationItem.title = topAD.title;
+               //web.navigationController.title = topAD.title;
+                web.titleString = topAD.title;
                 web.url = topAD.link;
-                [self.navigationController pushViewController:web animated:YES];
-                
-                //[self presentViewController:web animated:YES completion:nil];
+            
+                //[self.navigationController pushViewController:web animated:YES];
+
+                [self presentViewController:web animated:YES completion:nil];
             }];
         }
         return cell;

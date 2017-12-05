@@ -161,7 +161,7 @@ bool _isSelected = NO;
         // 渲染模式
         emitterLayer.renderMode = kCAEmitterLayerUnordered;
         // 开启三维效果
-        //    _emitterLayer.preservesDepth = YES;
+//emitterLayer.preservesDepth = YES;
         NSMutableArray *array = [NSMutableArray array];
         // 创建粒子
         for (int i = 0; i<10; i++) {
@@ -192,7 +192,6 @@ bool _isSelected = NO;
             stepCell.scale = 0.3;
             [array addObject:stepCell];
         }
-        
         emitterLayer.emitterCells = array;
         [self.moviePlayer.view.layer insertSublayer:emitterLayer below:self.catEarView.layer];
         _emitterLayer = emitterLayer;

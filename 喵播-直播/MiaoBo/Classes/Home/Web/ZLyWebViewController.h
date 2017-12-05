@@ -11,4 +11,5 @@
 @interface ZLyWebViewController : UIViewController
 - (instancetype)initWithUrlStr:(NSString *)url;
 @property (nonatomic,copy) NSString *url;
+@property (nonatomic,copy) NSString *titleString;
 @end
