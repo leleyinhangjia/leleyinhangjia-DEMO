@@ -399,6 +399,8 @@ Then, run the following command:
 ```bash
 $ pod install
 ```
+### 主页面----直播GIF展示
+![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/miaoboVideo.gif)
 
 ### 主页面----登录首页
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/miaobo1.png)
