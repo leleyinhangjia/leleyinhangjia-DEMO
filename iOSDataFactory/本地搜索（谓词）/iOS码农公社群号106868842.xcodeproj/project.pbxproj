@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D71FE7C1C7AD95B008F54E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D71FE7B1C7AD95B008F54E7 /* main.m */; };
+		7D71FE7F1C7AD95B008F54E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D71FE7E1C7AD95B008F54E7 /* AppDelegate.m */; };
+		7D71FE851C7AD95B008F54E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D71FE831C7AD95B008F54E7 /* Main.storyboard */; };
+		7D71FE871C7AD95C008F54E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D71FE861C7AD95C008F54E7 /* Assets.xcassets */; };
+		7D71FE8A1C7AD95C008F54E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D71FE881C7AD95C008F54E7 /* LaunchScreen.storyboard */; };
+		7D71FE951C7AD95C008F54E7 /* NDSearchToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D71FE941C7AD95C008F54E7 /* NDSearchToolTests.m */; };
+		7D71FEA01C7AD95C008F54E7 /* NDSearchToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D71FE9F1C7AD95C008F54E7 /* NDSearchToolUITests.m */; };
+		7D71FEB11C7AF3E2008F54E7 /* stockList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D71FEB01C7AF3E2008F54E7 /* stockList.plist */; };
+		7D71FEC01C7C2A11008F54E7 /* NDDefaultSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D71FEBC1C7C2A11008F54E7 /* NDDefaultSearchViewController.m */; };
+		7D71FEC11C7C2A11008F54E7 /* NDDefaultFuzzySearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D71FEBF1C7C2A11008F54E7 /* NDDefaultFuzzySearchViewController.m */; };
+		7D71FED31C7C4F45008F54E7 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D71FED01C7C4F45008F54E7 /* UIImage+ImageEffects.m */; };
+		7D71FED41C7C4F45008F54E7 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D71FED21C7C4F45008F54E7 /* UIImageView+LBBlurredImage.m */; };
+		7DFED3431C7D5C4F0050869C /* NDSectionSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFED3421C7D5C4F0050869C /* NDSectionSearchViewController.m */; };
+		7DFED3451C7E93AD0050869C /* stockComany.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DFED3441C7E93AD0050869C /* stockComany.plist */; };
+		7DFED3511C7EE1860050869C /* NDSearchStockCompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFED34B1C7EE1860050869C /* NDSearchStockCompanyModel.m */; };
+		7DFED3521C7EE1860050869C /* NDSearchStockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFED34D1C7EE1860050869C /* NDSearchStockModel.m */; };
+		7DFED3531C7EE1860050869C /* NDSearchTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFED3501C7EE1860050869C /* NDSearchTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D71FE911C7AD95C008F54E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D71FE6F1C7AD95B008F54E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D71FE761C7AD95B008F54E7;
+			remoteInfo = NDSearchTool;
+		};
+		7D71FE9C1C7AD95C008F54E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D71FE6F1C7AD95B008F54E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D71FE761C7AD95B008F54E7;
+			remoteInfo = NDSearchTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D71FE771C7AD95B008F54E7 /* iOS码农公社群号106868842.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS码农公社群号106868842.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D71FE7B1C7AD95B008F54E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D71FE7D1C7AD95B008F54E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D71FE7E1C7AD95B008F54E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D71FE841C7AD95B008F54E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D71FE861C7AD95C008F54E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D71FE891C7AD95C008F54E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D71FE8B1C7AD95C008F54E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D71FE901C7AD95C008F54E7 /* iOS码农公社群号106868842.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS码农公社群号106868842.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D71FE941C7AD95C008F54E7 /* NDSearchToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDSearchToolTests.m; sourceTree = "<group>"; };
+		7D71FE961C7AD95C008F54E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D71FE9B1C7AD95C008F54E7 /* iOS码农公社群号106868842.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS码农公社群号106868842.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D71FE9F1C7AD95C008F54E7 /* NDSearchToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDSearchToolUITests.m; sourceTree = "<group>"; };
+		7D71FEA11C7AD95C008F54E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D71FEB01C7AF3E2008F54E7 /* stockList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stockList.plist; sourceTree = "<group>"; };
+		7D71FEBB1C7C2A11008F54E7 /* NDDefaultSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDDefaultSearchViewController.h; sourceTree = "<group>"; };
+		7D71FEBC1C7C2A11008F54E7 /* NDDefaultSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDDefaultSearchViewController.m; sourceTree = "<group>"; };
+		7D71FEBE1C7C2A11008F54E7 /* NDDefaultFuzzySearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDDefaultFuzzySearchViewController.h; sourceTree = "<group>"; };
+		7D71FEBF1C7C2A11008F54E7 /* NDDefaultFuzzySearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDDefaultFuzzySearchViewController.m; sourceTree = "<group>"; };
+		7D71FECF1C7C4F45008F54E7 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		7D71FED01C7C4F45008F54E7 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		7D71FED11C7C4F45008F54E7 /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		7D71FED21C7C4F45008F54E7 /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		7DFED3411C7D5C4F0050869C /* NDSectionSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDSectionSearchViewController.h; sourceTree = "<group>"; };
+		7DFED3421C7D5C4F0050869C /* NDSectionSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDSectionSearchViewController.m; sourceTree = "<group>"; };
+		7DFED3441C7E93AD0050869C /* stockComany.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stockComany.plist; sourceTree = "<group>"; };
+		7DFED34A1C7EE1860050869C /* NDSearchStockCompanyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDSearchStockCompanyModel.h; sourceTree = "<group>"; };
+		7DFED34B1C7EE1860050869C /* NDSearchStockCompanyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDSearchStockCompanyModel.m; sourceTree = "<group>"; };
+		7DFED34C1C7EE1860050869C /* NDSearchStockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDSearchStockModel.h; sourceTree = "<group>"; };
+		7DFED34D1C7EE1860050869C /* NDSearchStockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDSearchStockModel.m; sourceTree = "<group>"; };
+		7DFED34F1C7EE1860050869C /* NDSearchTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDSearchTool.h; sourceTree = "<group>"; };
+		7DFED3501C7EE1860050869C /* NDSearchTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDSearchTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D71FE741C7AD95B008F54E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D71FE8D1C7AD95C008F54E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D71FE981C7AD95C008F54E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D71FE6E1C7AD95B008F54E7 = {
+			isa = PBXGroup;
+			children = (
+				7D71FE791C7AD95B008F54E7 /* NDSearchTool */,
+				7D71FE931C7AD95C008F54E7 /* NDSearchToolTests */,
+				7D71FE9E1C7AD95C008F54E7 /* NDSearchToolUITests */,
+				7D71FE781C7AD95B008F54E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D71FE781C7AD95B008F54E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D71FE771C7AD95B008F54E7 /* iOS码农公社群号106868842.app */,
+				7D71FE901C7AD95C008F54E7 /* iOS码农公社群号106868842.xctest */,
+				7D71FE9B1C7AD95C008F54E7 /* iOS码农公社群号106868842.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D71FE791C7AD95B008F54E7 /* NDSearchTool */ = {
+			isa = PBXGroup;
+			children = (
+				7D71FE7D1C7AD95B008F54E7 /* AppDelegate.h */,
+				7D71FE7E1C7AD95B008F54E7 /* AppDelegate.m */,
+				7DFED34E1C7EE1860050869C /* SearchTool */,
+				7DFED3491C7EE1860050869C /* Model */,
+				7D71FEC21C7C2CC5008F54E7 /* Vendors */,
+				7D71FEBA1C7C2A11008F54E7 /* DefaultSearchViewController */,
+				7D71FEBD1C7C2A11008F54E7 /* DefaultSearchViewController(fuzzy) */,
+				7DFED3401C7D5C300050869C /* SectionSearchViewController */,
+				7D71FEB01C7AF3E2008F54E7 /* stockList.plist */,
+				7DFED3441C7E93AD0050869C /* stockComany.plist */,
+				7D71FE831C7AD95B008F54E7 /* Main.storyboard */,
+				7D71FE861C7AD95C008F54E7 /* Assets.xcassets */,
+				7D71FE881C7AD95C008F54E7 /* LaunchScreen.storyboard */,
+				7D71FE8B1C7AD95C008F54E7 /* Info.plist */,
+				7D71FE7A1C7AD95B008F54E7 /* Supporting Files */,
+			);
+			path = NDSearchTool;
+			sourceTree = "<group>";
+		};
+		7D71FE7A1C7AD95B008F54E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D71FE7B1C7AD95B008F54E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D71FE931C7AD95C008F54E7 /* NDSearchToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D71FE941C7AD95C008F54E7 /* NDSearchToolTests.m */,
+				7D71FE961C7AD95C008F54E7 /* Info.plist */,
+			);
+			path = NDSearchToolTests;
+			sourceTree = "<group>";
+		};
+		7D71FE9E1C7AD95C008F54E7 /* NDSearchToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D71FE9F1C7AD95C008F54E7 /* NDSearchToolUITests.m */,
+				7D71FEA11C7AD95C008F54E7 /* Info.plist */,
+			);
+			path = NDSearchToolUITests;
+			sourceTree = "<group>";
+		};
+		7D71FEBA1C7C2A11008F54E7 /* DefaultSearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7D71FEBB1C7C2A11008F54E7 /* NDDefaultSearchViewController.h */,
+				7D71FEBC1C7C2A11008F54E7 /* NDDefaultSearchViewController.m */,
+			);
+			path = DefaultSearchViewController;
+			sourceTree = "<group>";
+		};
+		7D71FEBD1C7C2A11008F54E7 /* DefaultSearchViewController(fuzzy) */ = {
+			isa = PBXGroup;
+			children = (
+				7D71FEBE1C7C2A11008F54E7 /* NDDefaultFuzzySearchViewController.h */,
+				7D71FEBF1C7C2A11008F54E7 /* NDDefaultFuzzySearchViewController.m */,
+			);
+			path = "DefaultSearchViewController(fuzzy)";
+			sourceTree = "<group>";
+		};
+		7D71FEC21C7C2CC5008F54E7 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				7D71FECE1C7C4F45008F54E7 /* LBBlurredImage */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		7D71FECE1C7C4F45008F54E7 /* LBBlurredImage */ = {
+			isa = PBXGroup;
+			children = (
+				7D71FECF1C7C4F45008F54E7 /* UIImage+ImageEffects.h */,
+				7D71FED01C7C4F45008F54E7 /* UIImage+ImageEffects.m */,
+				7D71FED11C7C4F45008F54E7 /* UIImageView+LBBlurredImage.h */,
+				7D71FED21C7C4F45008F54E7 /* UIImageView+LBBlurredImage.m */,
+			);
+			path = LBBlurredImage;
+			sourceTree = "<group>";
+		};
+		7DFED3401C7D5C300050869C /* SectionSearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7DFED3411C7D5C4F0050869C /* NDSectionSearchViewController.h */,
+				7DFED3421C7D5C4F0050869C /* NDSectionSearchViewController.m */,
+			);
+			path = SectionSearchViewController;
+			sourceTree = "<group>";
+		};
+		7DFED3491C7EE1860050869C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DFED34A1C7EE1860050869C /* NDSearchStockCompanyModel.h */,
+				7DFED34B1C7EE1860050869C /* NDSearchStockCompanyModel.m */,
+				7DFED34C1C7EE1860050869C /* NDSearchStockModel.h */,
+				7DFED34D1C7EE1860050869C /* NDSearchStockModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DFED34E1C7EE1860050869C /* SearchTool */ = {
+			isa = PBXGroup;
+			children = (
+				7DFED34F1C7EE1860050869C /* NDSearchTool.h */,
+				7DFED3501C7EE1860050869C /* NDSearchTool.m */,
+			);
+			path = SearchTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D71FE761C7AD95B008F54E7 /* iOS码农公社群号106868842 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D71FEA41C7AD95C008F54E7 /* Build configuration list for PBXNativeTarget "iOS码农公社群号106868842" */;
+			buildPhases = (
+				7D71FE731C7AD95B008F54E7 /* Sources */,
+				7D71FE741C7AD95B008F54E7 /* Frameworks */,
+				7D71FE751C7AD95B008F54E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS码农公社群号106868842";
+			productName = NDSearchTool;
+			productReference = 7D71FE771C7AD95B008F54E7 /* iOS码农公社群号106868842.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D71FE8F1C7AD95C008F54E7 /* iOS码农公社群号106868842Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D71FEA71C7AD95C008F54E7 /* Build configuration list for PBXNativeTarget "iOS码农公社群号106868842Tests" */;
+			buildPhases = (
+				7D71FE8C1C7AD95C008F54E7 /* Sources */,
+				7D71FE8D1C7AD95C008F54E7 /* Frameworks */,
+				7D71FE8E1C7AD95C008F54E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D71FE921C7AD95C008F54E7 /* PBXTargetDependency */,
+			);
+			name = "iOS码农公社群号106868842Tests";
+			productName = NDSearchToolTests;
+			productReference = 7D71FE901C7AD95C008F54E7 /* iOS码农公社群号106868842.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D71FE9A1C7AD95C008F54E7 /* iOS码农公社群号106868842UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D71FEAA1C7AD95C008F54E7 /* Build configuration list for PBXNativeTarget "iOS码农公社群号106868842UITests" */;
+			buildPhases = (
+				7D71FE971C7AD95C008F54E7 /* Sources */,
+				7D71FE981C7AD95C008F54E7 /* Frameworks */,
+				7D71FE991C7AD95C008F54E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D71FE9D1C7AD95C008F54E7 /* PBXTargetDependency */,
+			);
+			name = "iOS码农公社群号106868842UITests";
+			productName = NDSearchToolUITests;
+			productReference = 7D71FE9B1C7AD95C008F54E7 /* iOS码农公社群号106868842.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D71FE6F1C7AD95B008F54E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = NDEducation;
+				TargetAttributes = {
+					7D71FE761C7AD95B008F54E7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					7D71FE8F1C7AD95C008F54E7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7D71FE761C7AD95B008F54E7;
+					};
+					7D71FE9A1C7AD95C008F54E7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7D71FE761C7AD95B008F54E7;
+					};
+				};
+			};
+			buildConfigurationList = 7D71FE721C7AD95B008F54E7 /* Build configuration list for PBXProject "iOS码农公社群号106868842" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D71FE6E1C7AD95B008F54E7;
+			productRefGroup = 7D71FE781C7AD95B008F54E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D71FE761C7AD95B008F54E7 /* iOS码农公社群号106868842 */,
+				7D71FE8F1C7AD95C008F54E7 /* iOS码农公社群号106868842Tests */,
+				7D71FE9A1C7AD95C008F54E7 /* iOS码农公社群号106868842UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D71FE751C7AD95B008F54E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D71FE8A1C7AD95C008F54E7 /* LaunchScreen.storyboard in Resources */,
+				7D71FEB11C7AF3E2008F54E7 /* stockList.plist in Resources */,
+				7D71FE871C7AD95C008F54E7 /* Assets.xcassets in Resources */,
+				7D71FE851C7AD95B008F54E7 /* Main.storyboard in Resources */,
+				7DFED3451C7E93AD0050869C /* stockComany.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D71FE8E1C7AD95C008F54E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D71FE991C7AD95C008F54E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D71FE731C7AD95B008F54E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D71FED31C7C4F45008F54E7 /* UIImage+ImageEffects.m in Sources */,
+				7D71FE7F1C7AD95B008F54E7 /* AppDelegate.m in Sources */,
+				7DFED3511C7EE1860050869C /* NDSearchStockCompanyModel.m in Sources */,
+				7D71FE7C1C7AD95B008F54E7 /* main.m in Sources */,
+				7D71FEC01C7C2A11008F54E7 /* NDDefaultSearchViewController.m in Sources */,
+				7DFED3531C7EE1860050869C /* NDSearchTool.m in Sources */,
+				7DFED3431C7D5C4F0050869C /* NDSectionSearchViewController.m in Sources */,
+				7D71FED41C7C4F45008F54E7 /* UIImageView+LBBlurredImage.m in Sources */,
+				7D71FEC11C7C2A11008F54E7 /* NDDefaultFuzzySearchViewController.m in Sources */,
+				7DFED3521C7EE1860050869C /* NDSearchStockModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D71FE8C1C7AD95C008F54E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D71FE951C7AD95C008F54E7 /* NDSearchToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D71FE971C7AD95C008F54E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D71FEA01C7AD95C008F54E7 /* NDSearchToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D71FE921C7AD95C008F54E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D71FE761C7AD95B008F54E7 /* iOS码农公社群号106868842 */;
+			targetProxy = 7D71FE911C7AD95C008F54E7 /* PBXContainerItemProxy */;
+		};
+		7D71FE9D1C7AD95C008F54E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D71FE761C7AD95B008F54E7 /* iOS码农公社群号106868842 */;
+			targetProxy = 7D71FE9C1C7AD95C008F54E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D71FE831C7AD95B008F54E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D71FE841C7AD95B008F54E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D71FE881C7AD95C008F54E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D71FE891C7AD95C008F54E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D71FEA21C7AD95C008F54E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D71FEA31C7AD95C008F54E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D71FEA51C7AD95C008F54E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NDSearchTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.education.nd.NDSearchTool;
+				PRODUCT_NAME = "iOS码农公社群号106868842";
+			};
+			name = Debug;
+		};
+		7D71FEA61C7AD95C008F54E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NDSearchTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.education.nd.NDSearchTool;
+				PRODUCT_NAME = "iOS码农公社群号106868842";
+			};
+			name = Release;
+		};
+		7D71FEA81C7AD95C008F54E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NDSearchToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.education.nd.NDSearchToolTests;
+				PRODUCT_NAME = "iOS码农公社群号106868842";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS码农公社群号106868842.app/iOS码农公社群号106868842";
+			};
+			name = Debug;
+		};
+		7D71FEA91C7AD95C008F54E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NDSearchToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.education.nd.NDSearchToolTests;
+				PRODUCT_NAME = "iOS码农公社群号106868842";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS码农公社群号106868842.app/iOS码农公社群号106868842";
+			};
+			name = Release;
+		};
+		7D71FEAB1C7AD95C008F54E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NDSearchToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.education.nd.NDSearchToolUITests;
+				PRODUCT_NAME = "iOS码农公社群号106868842";
+				TEST_TARGET_NAME = NDSearchTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7D71FEAC1C7AD95C008F54E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NDSearchToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.education.nd.NDSearchToolUITests;
+				PRODUCT_NAME = "iOS码农公社群号106868842";
+				TEST_TARGET_NAME = NDSearchTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D71FE721C7AD95B008F54E7 /* Build configuration list for PBXProject "iOS码农公社群号106868842" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D71FEA21C7AD95C008F54E7 /* Debug */,
+				7D71FEA31C7AD95C008F54E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D71FEA41C7AD95C008F54E7 /* Build configuration list for PBXNativeTarget "iOS码农公社群号106868842" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D71FEA51C7AD95C008F54E7 /* Debug */,
+				7D71FEA61C7AD95C008F54E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D71FEA71C7AD95C008F54E7 /* Build configuration list for PBXNativeTarget "iOS码农公社群号106868842Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D71FEA81C7AD95C008F54E7 /* Debug */,
+				7D71FEA91C7AD95C008F54E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D71FEAA1C7AD95C008F54E7 /* Build configuration list for PBXNativeTarget "iOS码农公社群号106868842UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D71FEAB1C7AD95C008F54E7 /* Debug */,
+				7D71FEAC1C7AD95C008F54E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D71FE6F1C7AD95B008F54E7 /* Project object */;
+}

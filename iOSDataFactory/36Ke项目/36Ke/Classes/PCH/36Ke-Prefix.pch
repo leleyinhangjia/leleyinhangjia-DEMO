@@ -1,0 +1,31 @@
+//
+//  36Ke-Prefix.pch
+//  36Ke
+//
+//  Created by lmj  on 16/2/2.
+//  Copyright (c) 2016年 lmj . All rights reserved.
+//
+
+#ifndef _6Ke__6Ke_Prefix_pch
+#define _6Ke__6Ke_Prefix_pch
+
+/**
+ * 扩展库
+ */
+#import "UIView+Extension.h"
+#import "UIImage+Extension.h"
+#import "UIColor+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+//#import "NSString+Extension.h"
+#import "NSData+Extension.h"
+#import "NSObject+Extension.h"
+#import "UIButton+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+/*
+ * 公用库
+ */
+#import "LMJEasyDefine.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

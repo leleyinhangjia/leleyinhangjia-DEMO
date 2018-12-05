@@ -1,0 +1,73 @@
+//
+//  SearchModel.h
+//  36Ke
+//
+//  Created by lmj  on 16/3/21.
+//  Copyright (c) 2016年 lmj . All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@class SearchData,OrgModel,CompanyModel2,UserModel2;
+@interface SearchModel : NSObject
+
+
+@property (nonatomic, copy) NSString *msg;
+
+@property (nonatomic, strong) SearchData *data;
+
+@property (nonatomic, assign) NSInteger code;
+
+
+
+@end
+@interface SearchData : NSObject
+
+@property (nonatomic, strong) NSArray *user;
+
+@property (nonatomic, assign) BOOL moreuser;
+
+@property (nonatomic, assign) BOOL morecompany;
+
+@property (nonatomic, assign) BOOL moreorg;
+
+@property (nonatomic, strong) NSArray *company;
+
+@property (nonatomic, strong) NSArray *org;
+
+@end
+
+@interface OrgModel : NSObject
+
+@property (nonatomic, assign) NSInteger id;
+
+@property (nonatomic, copy) NSString *name;
+
+@property (nonatomic, copy) NSString *imgUrl;
+
+@end
+
+@interface CompanyModel2 : NSObject
+
+@property (nonatomic, assign) NSInteger id;
+
+@property (nonatomic, copy) NSString *name;
+
+@property (nonatomic, copy) NSString *imgUrl;
+
+@end
+
+@interface UserModel2 : NSObject
+
+@property (nonatomic, copy) NSString *imgUrl;
+
+@property (nonatomic, assign) NSInteger id;
+
+@property (nonatomic, copy) NSString *name;
+
+@property (nonatomic, assign) BOOL investor;
+
+@property (nonatomic, assign) BOOL premiumInvestor;
+
+@end
+

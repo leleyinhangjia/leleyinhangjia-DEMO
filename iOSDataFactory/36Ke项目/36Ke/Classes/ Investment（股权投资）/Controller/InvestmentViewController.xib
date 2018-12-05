@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InvestmentViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="kuw-20-tem"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="WsC-q7-MgP">
+                    <rect key="frame" x="0.0" y="23" width="375" height="595"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="WsC-q7-MgP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="D4i-zL-tNa"/>
+                <constraint firstAttribute="bottom" secondItem="WsC-q7-MgP" secondAttribute="bottom" id="Pju-km-SqM"/>
+                <constraint firstItem="WsC-q7-MgP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ige-S3-zis"/>
+                <constraint firstAttribute="trailing" secondItem="WsC-q7-MgP" secondAttribute="trailing" id="uzn-rR-RM5"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="2" width="375" height="598"/>
+    </resources>
+</document>

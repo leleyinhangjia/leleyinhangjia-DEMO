@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="274" id="NHb-eI-O8J" customClass="KeTVCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="274"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NHb-eI-O8J" id="wdH-fU-Daq">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vwF-IB-Dp3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="273"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mpR-ne-8a7">
+                        <rect key="frame" x="178" y="127" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="HP2-d2-Fc6"/>
+                            <constraint firstAttribute="height" constant="20" id="KJw-6B-4T7"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="news_krtv_play">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05&quot;03&quot;" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JR9-67-bhz">
+                        <rect key="frame" x="200" y="128" width="45" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;氪TV&gt;评测 Smartisan T2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wV2-Q7-ztk">
+                        <rect key="frame" x="8" y="71" width="359" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8I5-ch-mbV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="273"/>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8I5-ch-mbV" firstAttribute="top" secondItem="wdH-fU-Daq" secondAttribute="top" id="3Wv-U6-xkR"/>
+                    <constraint firstAttribute="centerY" secondItem="JR9-67-bhz" secondAttribute="centerY" id="4jO-KS-Kf2"/>
+                    <constraint firstAttribute="centerX" secondItem="wV2-Q7-ztk" secondAttribute="centerX" id="7KH-F9-fOa"/>
+                    <constraint firstItem="vwF-IB-Dp3" firstAttribute="leading" secondItem="wdH-fU-Daq" secondAttribute="leading" id="CLI-RL-Nn0"/>
+                    <constraint firstItem="vwF-IB-Dp3" firstAttribute="top" secondItem="wdH-fU-Daq" secondAttribute="top" id="CR9-pB-baU"/>
+                    <constraint firstItem="wV2-Q7-ztk" firstAttribute="leading" secondItem="wdH-fU-Daq" secondAttribute="leading" constant="8" id="KQs-LB-cXp"/>
+                    <constraint firstAttribute="bottom" secondItem="8I5-ch-mbV" secondAttribute="bottom" id="Q6N-gr-umA"/>
+                    <constraint firstAttribute="trailing" secondItem="8I5-ch-mbV" secondAttribute="trailing" id="QAx-SW-ijP"/>
+                    <constraint firstItem="8I5-ch-mbV" firstAttribute="leading" secondItem="wdH-fU-Daq" secondAttribute="leading" id="WEn-i6-Zyj"/>
+                    <constraint firstItem="JR9-67-bhz" firstAttribute="leading" secondItem="mpR-ne-8a7" secondAttribute="trailing" constant="2" id="Xjn-qV-krM"/>
+                    <constraint firstAttribute="centerY" secondItem="mpR-ne-8a7" secondAttribute="centerY" id="Xq4-0X-ODA"/>
+                    <constraint firstAttribute="trailing" secondItem="vwF-IB-Dp3" secondAttribute="trailing" id="ed7-D6-U8b"/>
+                    <constraint firstAttribute="centerX" secondItem="mpR-ne-8a7" secondAttribute="centerX" id="l2r-UY-RBX"/>
+                    <constraint firstAttribute="bottom" secondItem="vwF-IB-Dp3" secondAttribute="bottom" id="q4J-IA-B1j"/>
+                    <constraint firstItem="wV2-Q7-ztk" firstAttribute="top" secondItem="wdH-fU-Daq" secondAttribute="top" constant="71" id="tCW-3H-vtT"/>
+                    <constraint firstAttribute="trailing" secondItem="wV2-Q7-ztk" secondAttribute="trailing" constant="8" id="w7q-kr-urS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backgroundIV" destination="vwF-IB-Dp3" id="5JF-TR-jiF"/>
+                <outlet property="duration" destination="JR9-67-bhz" id="iKJ-Iv-Vm9"/>
+                <outlet property="playBtn" destination="8I5-ch-mbV" id="gGu-3R-gnG"/>
+                <outlet property="title" destination="wV2-Q7-ztk" id="u9J-VH-ack"/>
+            </connections>
+            <point key="canvasLocation" x="197.5" y="-104"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="news_krtv_play" width="58" height="58"/>
+    </resources>
+</document>

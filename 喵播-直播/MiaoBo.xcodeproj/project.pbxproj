@@ -824,7 +824,6 @@
 				F928D0311E6D6FFD00E67D5B /* Frameworks */,
 				F928D0321E6D6FFD00E67D5B /* Resources */,
 				F59B4F07ABF48B11456EA548 /* [CP] Embed Pods Frameworks */,
-				64002CD989288AFAEDFE5532 /* [CP] Copy Pods Resources */,
 				F95C7A471E7B766900378EDA /* ShellScript */,
 			);
 			buildRules = (
@@ -958,21 +957,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		64002CD989288AFAEDFE5532 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiaoBo/Pods-MiaoBo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DF47044DB9A722FBCC286EA7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
