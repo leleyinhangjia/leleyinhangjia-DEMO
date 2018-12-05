@@ -1,5 +1,5 @@
 # leleyinhangjia-DEMO(***  最新封装NSDate拓展方法的Cocoapods框架正在研发中... ***)
-# iOS-最全面的学习资料(https://ZhengLeyin@bitbucket.org/ZhengLeyin/ios-study.git)
+# iOS-最全面的学习资料()
 ## ios常用的宏定义(简书:https://www.jianshu.com/u/e469818c6d54  GitHub:https://github.com/leleyinhangjia/DefineConstant.git)
 ## 由于业余时间手敲,难免有bug.请批评指正(喵播--白屏加载慢问题---IJK请更换最新);
 ## 模仿ios经典项目(ofo,喵播等)+常用第三方类拓展+实际开发中遇到问题(由于近期比较忙于项目开发会持续更新中)...
@@ -513,7 +513,4 @@ emitterLayer.emitterCells = array;
 ### 推流界面----推流直播界面
 ![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/WechatIMG2.jpeg)
 
-#第三方拓展--(条件选择器)
-## 为什么推荐--自定义强可以根据自己要求随意改动,可变更根据需求
-![Image text](https://raw.githubusercontent.com/leleyinhangjia/leleyinhangjia-DEMO/master/image/select.png)
 
