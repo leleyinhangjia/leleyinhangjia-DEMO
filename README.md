@@ -1,4 +1,5 @@
 # leleyinhangjia-DEMO(***  最新封装NSDate拓展方法的Cocoapods框架正在研发中... ***)
+#ios 最全面的学习资料(git clone https://ZhengLeyin@bitbucket.org/ZhengLeyin/ios-datafactory.git)
 # ios常用的宏定义(简书:https://www.jianshu.com/u/e469818c6d54  GitHub:https://github.com/leleyinhangjia/DefineConstant.git)
 ## 由于业余时间手敲,难免有bug.请批评指正(喵播--白屏加载慢问题---IJK请更换最新);
 ## 模仿ios经典项目(ofo,喵播等)+常用第三方类拓展+实际开发中遇到问题(由于近期比较忙于项目开发会持续更新中)...
