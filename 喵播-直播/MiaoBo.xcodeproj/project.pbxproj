@@ -981,7 +981,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MiaoBo/Pods-MiaoBo-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MiaoBo/Pods-MiaoBo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/BarrageRenderer/BarrageRenderer.framework",
 				"${BUILT_PRODUCTS_DIR}/LFLiveKit/LFLiveKit.framework",
@@ -1006,7 +1006,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiaoBo/Pods-MiaoBo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiaoBo/Pods-MiaoBo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F95C7A471E7B766900378EDA /* ShellScript */ = {
